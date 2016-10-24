@@ -10,10 +10,10 @@ Makers Institute - Android Academy
   * [Day 2 - Github Pages](#day12)
   * [Day 3 - Project Assignment - Branching, Merge Conflict](#day13)
   
-* [Week 2 - C# Part 1](#week2)
-  * [Day 1 - Intro to C#, Hello world, Variable, Operators, Interactive Program, Conditionals](#day21)
-  * [Day 2 - Loop, String, Array, List](#day22)
-  * [Day 3 - Object Oriented Programming Part 1](#day23)
+* [Week 2 - Project 1 - Build a single screen app](#week2)
+  * [Day 1 - Building layout 1](#day21)
+  * [Day 2 - Building layout 2](#day22)
+  * [Day 3 - Project : Single Screen App](#day23)
   
 * [Week 3 - C# Part 2](#week3)
   * [Day 1 - Object Oriented Programming Part 2](#day31)

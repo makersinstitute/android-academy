@@ -1,9 +1,6 @@
-# android-academy
-Makers Institute - Android Academy
-
 ![Makers Institute](https://makersinstitute.id/img/logo-makersinstitute.png)
 
-# .NET Academy Syllabus
+# Android Academy Syllabus
 
 * [Week 1 - Git](#week1)
   * [Day 1 - Intro to Git](#day11)

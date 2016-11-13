@@ -103,8 +103,8 @@
 - Pre-reading:
   - [What is GitHub Pages](https://help.github.com/articles/what-is-github-pages/)
 - Presentation:
-  - [Introduction to GitHub Pages](https://docs.google.com/presentation/d/1P92L7tAypC-33i0HAXfZFWdU-MnBOOrAz-RDsKDzn24/edit?usp=sharing)
-- Hands on Lab:
+  - [Introduction to GitHub Pages](https://docs.google.com/presentation/d/1pdTf8ILdH-FK7zGjEcR1acLXZKer0GYp3ThRCRV67X0/edit?usp=sharing)
+  - Hands on Lab:
   - [Lab 1 - Create GitHub Pages](https://pages.github.com/)
   - [Lab 2 - GitHub Pages with Jekyll](http://jmcglone.com/guides/github-pages/)
 - Additional Reading:

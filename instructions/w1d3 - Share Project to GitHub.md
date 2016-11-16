@@ -52,14 +52,17 @@ Change your project view mode from *Android* to *Project* then look after the *.
 * **Step 4:** Open again the *VCS* menu, *Import into Version Control* -> *Share Project on GitHub*
 * **Step 5:** Login to your GitHub account.
 ![image](../images/w1d3%20-%208.png)
+
 * **Step 6:** Add a project description and then press ***Share***.
 ![image](../images/w1d3%20-%209.png)
+
 * **Step 7:** Select files to be committed and give a message description to your commit. Press ***OK***
 ![image](../images/w1d3%20-%2010.png)
 
 </br>
 
 ### Fifth: See your published repository
+
 ![image](../images/w1d3%20-%2011.png)
 After finished with the [Fourth](), you will see a pop-up on top-left of your screen. Click the link and you will see your first Android Project hosted on GitHub.
 

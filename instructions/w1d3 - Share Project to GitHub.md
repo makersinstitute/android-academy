@@ -9,7 +9,7 @@ In this project you will create a new Android Project, then publish it as a publ
 
 </br>
 
-#### First: Create a New Android Studio Project
+### First: Create a New Android Studio Project
 
 * **Step 1:** Open Android Studio, then Start a new Android Studio project.
 ![image](../images/w1d3%20-%201.png)
@@ -26,14 +26,23 @@ In this project you will create a new Android Project, then publish it as a publ
 * **Step 5:** Give a name to the Activity
 ![image](../images/w1d3%20-%205.png)
 
+</br>
 
-#### Second: Sync Project with Gradle Files
+### Second: Sync Project with Gradle Files
 After the project is created, you have to sync the project with the gradle files to let the IDE download the module related to current project.
 
 ![image](../images/w1d3%20-%206.png)
 
+</br>
 
-#### Third: Setup project with Version Control
+### Third: Checking .gitignore file
+Change your project view mode from *Android* to *Project* then look after the *.gitignore* file. Exclude every file that is not needed to be included in Version Control.
+
+![image](../images/w1d3%20-%207a.png)
+
+</br>
+
+### Fourth: Setup project with Version Control
 
 * **Step 1:** Open *VCS* menu
 * **Step 2:** Choose *Enable Version Control Integration...*
@@ -48,12 +57,13 @@ After the project is created, you have to sync the project with the gradle files
 * **Step 7:** Select files to be committed and give a message description to your commit. Press ***OK***
 ![image](../images/w1d3%20-%2010.png)
 
+</br>
 
-#### Fourth: See your published repository
-After finished with the [Third](), you will see a pop-up on top-left of your screen. Click the link and you will see your first Android Project hosted on GitHub.
-
+### Fifth: See your published repository
 ![image](../images/w1d3%20-%2011.png)
+After finished with the [Fourth](), you will see a pop-up on top-left of your screen. Click the link and you will see your first Android Project hosted on GitHub.
+
+![image](../images/w1d3%20-%2012.png)
 
 
 # Congrats!
-![image](../images/w1d3%20-%2012.png)

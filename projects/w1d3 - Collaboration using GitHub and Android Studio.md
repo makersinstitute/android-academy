@@ -25,32 +25,46 @@ In this project you will Fork some remote repository to your remote repository. 
 
 </br>
 
-### Third: Edit some file
-1. Browse the Project File
-2. Open *activity_main.xml* under `res/layout/` directory 
-3. Edit **TextView's** text from `"Hello World!"` to `"Hello <your name>!"`
-</br>
+### Third: Create a New Branch then edit some file
+1. Open *VCS* menu, *Git* -> *Branches...*, then `+ New Branch`.
+2. Give it a name.
+3. Browse the Project File.
+4. Open *activity_main.xml* under `res/layout/` directory 
+5. Edit **TextView's** text from `"Hello World!"` to `"Hello <your first name>!"`
+6. Commit the edit. 
 
-### Fourth: Push to GitHub
-1. Add the edited file to staging area.
-2. Commit the staged file, by also giving meaning full commit message.
-3. Push to your Remote Repository.
-4. Make sure it's successly pushed.
-
-</br>
-
-### Fifth: Pull Request
-1. Let's open the original repository that you have forked. [Here](https://github.com/makersinstitute/MyFirstApp).
-2. Tap `New pull request` button.
-3. Then tap `Create pull request' and needed information. If
+### Fourth: Back to Master Branch, then edit the same file
+1. Open *VCS* menu, *Git* -> *Branches...*, then under the local branch, *checkout* your Master Branch.
+2. Browse the Project File
+3. Open *activity_main.xml* under `res/layout/` directory 
+4. Edit **TextView's** text from `"Hello World!"` to `"Hello <your last name>!"`
+5. Commit the edit.
 
 </br>
 
-### Sixth: Resolving Merge Conflict
+### Fifth: Merge it and resolve if it conflicted (it should be conflicted)
+1. Make sure you are on Master Branch.
+2. Open *VCS* menu, *Git* -> *Merge Changes...*
+3. Choose branch to be merge with, then tap ***Merge***
+4. You will see a new window that telling you have to resolve conflict. Tap ***Merge...***
+5. Choose the version you want, make sure you see the green pop-up telling you that the merge is ok, then tap ***Apply***.
+6. Commit the merge using Android Studio's made commit message.
 
 </br>
 
-### Seventh: Push again to GitHub
+### Sixth: Push to GitHub
+1. Open *VCS* menu, *Git* -> *Push*
+2. Everything should be ok now, then push to your Remote Repository.
+2. Make sure it's successly pushed. Congratulations!
+
+</br>
+
+### Seventh: Pull Request
+1. Let's contribute to the original repository.
+2. Open *VCS* menu, *Git* -> *Create Pull Request*
+3. Choose the original remote repository on *Base fork*
+4. Give a title, and maybe descriptions.
+5. Finally, tap `OK`.
 
 </br>
 

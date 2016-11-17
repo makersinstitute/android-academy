@@ -104,7 +104,7 @@
   - [What is GitHub Pages](https://help.github.com/articles/what-is-github-pages/)
 - Presentation:
   - [Introduction to GitHub Pages](https://docs.google.com/presentation/d/1P92L7tAypC-33i0HAXfZFWdU-MnBOOrAz-RDsKDzn24/edit#slide=id.p)
-  - Hands on Lab:
+- Hands on Lab:
   - [Lab 1 - Create GitHub Pages](https://pages.github.com/)
   - [Lab 2 - GitHub Pages with Jekyll](http://jmcglone.com/guides/github-pages/)
 - Additional Reading:
@@ -126,8 +126,8 @@
 - Presentation:
   - [Branch & Merge Conflict](https://docs.google.com/presentation/d/1oAQl2ALw0Q0Fi8NyRVQTt6oE5RghDhx-ZaRO3DUleQQ/edit?usp=sharing)
 - Hands on Lab:
-  - [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
+  - [Share Android Project to GitHub](https://github.com/makersinstitute/android-academy/blob/w1d3/instructions/w1d3%20-%20Share%20Project%20to%20GitHub.md)
 - Additional Reading:
   - [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
 - Project:
-  - [JavaScript Homework](https://github.com/makersinstitute/w1d3-branch-and-merge)
+  - [Collaborating using GitHub and Android Studio](https://github.com/makersinstitute/android-academy/blob/w1d3/projects/w1d3%20-%20Collaboration%20using%20GitHub%20and%20Android%20Studio.md)

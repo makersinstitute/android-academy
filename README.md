@@ -127,7 +127,7 @@
   - [Branch & Merge Conflict](https://docs.google.com/presentation/d/1oAQl2ALw0Q0Fi8NyRVQTt6oE5RghDhx-ZaRO3DUleQQ/edit?usp=sharing)
 - Hands on Lab:
   - [Share Android Project to GitHub](https://github.com/makersinstitute/android-academy/blob/w1d3/instructions/w1d3%20-%20Share%20Project%20to%20GitHub.md)
+  - [Collaborating using GitHub and Android Studio](https://github.com/makersinstitute/android-academy/blob/w1d3/projects/w1d3%20-%20Collaboration%20using%20GitHub%20and%20Android%20Studio.md)
 - Additional Reading:
   - [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
-- Project:
-  - [Collaborating using GitHub and Android Studio](https://github.com/makersinstitute/android-academy/blob/w1d3/projects/w1d3%20-%20Collaboration%20using%20GitHub%20and%20Android%20Studio.md)
+  

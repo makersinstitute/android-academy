@@ -125,7 +125,7 @@
   - [Merge Conlict](https://help.github.com/articles/resolving-a-merge-conflict-from-the-command-line/)
 - Presentation:
   - [Branch & Merge Conflict](https://docs.google.com/presentation/d/1oAQl2ALw0Q0Fi8NyRVQTt6oE5RghDhx-ZaRO3DUleQQ/edit?usp=sharing)
-  - [GitHub Practice using Android Studio](https://docs.google.com/presentation/d/1lvYW-sWI-wicYhgDeGp6jaNNH4XdOtc1tNharOQC5sU/edit#slide=id.g1961775760_0_22)
+  - [GitHub Practice using Android Studio](https://docs.google.com/presentation/d/1lvYW-sWI-wicYhgDeGp6jaNNH4XdOtc1tNharOQC5sU/edit?usp=sharing)
 - Hands on Lab:
   - [Share Android Project to GitHub](https://github.com/makersinstitute/android-academy/blob/master/instructions/w1d3%20-%20Share%20Project%20to%20GitHub.md)
   - [Collaborating using GitHub and Android Studio](https://github.com/makersinstitute/android-academy/blob/master/projects/w1d3%20-%20Collaboration%20using%20GitHub%20and%20Android%20Studio.md)

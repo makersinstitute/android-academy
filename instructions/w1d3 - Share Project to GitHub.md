@@ -12,18 +12,23 @@ In this project you will create a new Android Project, then publish it as a publ
 ### First: Create a New Android Studio Project
 
 * **Step 1:** Open Android Studio, then Start a new Android Studio project.
+
 ![image](../images/w1d3%20-%201.png)
 
-* **Step 2:** Fill Application name, Company Domain, and Project. Location
+* **Step 2:** Fill Application name, Company Domain, and Project Location.
+
 ![image](../images/w1d3%20-%202.png)
 
-* **Step 3:** Select target Android devices. 
+* **Step 3:** Select target Android devices.
+
 ![image](../images/w1d3%20-%203.png)
 
 * **Step 4:** Select your first activity.
+
 ![image](../images/w1d3%20-%204.png)
 
 * **Step 5:** Give a name to the Activity
+
 ![image](../images/w1d3%20-%205.png)
 
 </br>
@@ -47,16 +52,20 @@ Change your project view mode from *Android* to *Project* then look after the *.
 * **Step 1:** Open *VCS* menu
 * **Step 2:** Choose *Enable Version Control Integration...*
 * **Step 3:** Select *Git* from the dropdown. And it will create Git Repository on the project folder.
+
 ![image](../images/w1d3%20-%207.png)
 
 * **Step 4:** Open again the *VCS* menu, *Import into Version Control* -> *Share Project on GitHub*
 * **Step 5:** Login to your GitHub account.
+
 ![image](../images/w1d3%20-%208.png)
 
 * **Step 6:** Add a project description and then press ***Share***.
+
 ![image](../images/w1d3%20-%209.png)
 
 * **Step 7:** Select files to be committed and give a message description to your commit. Press ***OK***
+
 ![image](../images/w1d3%20-%2010.png)
 
 </br>
@@ -64,6 +73,7 @@ Change your project view mode from *Android* to *Project* then look after the *.
 ### Fifth: See your published repository
 
 ![image](../images/w1d3%20-%2011.png)
+
 After finished with the [Fourth](), you will see a pop-up on top-left of your screen. Click the link and you will see your first Android Project hosted on GitHub.
 
 ![image](../images/w1d3%20-%2012.png)

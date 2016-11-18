@@ -138,20 +138,21 @@
 - Learning Objectives:
 - Pre-reading:
 - Presentation:
+  - [Material Design #1]() 
 - Hands on Lab:
 - Additional Reading:
-- Project:
 #### <a name="day22"></a>Day 2 - Bold Graphic Design, Meaningful Motion
 - Learning Objectives:
 - Pre-reading:
 - Presentation:
+  - [Material Design #2]()
 - Hands on Lab:
 - Additional Reading:
-- Project:
 #### <a name="day23"></a>Day 3 - Adaptive Design, Project
 - Learning Objectives:
 - Pre-reading:
 - Presentation:
+  - [Material Design #3]()
 - Hands on Lab:
 - Additional Reading:
 - Project:

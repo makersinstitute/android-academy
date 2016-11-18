@@ -132,3 +132,26 @@
 - Additional Reading:
   - [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
   
+## <a name="week2"></a>Week 2
+
+#### <a name="day21"></a>Day 1 - Android design fundamental, Surfaces
+- Learning Objectives:
+- Pre-reading:
+- Presentation:
+- Hands on Lab:
+- Additional Reading:
+- Project:
+#### <a name="day22"></a>Day 2 - Bold Graphic Design, Meaningful Motion
+- Learning Objectives:
+- Pre-reading:
+- Presentation:
+- Hands on Lab:
+- Additional Reading:
+- Project:
+#### <a name="day23"></a>Day 3 - Adaptive Design, Project
+- Learning Objectives:
+- Pre-reading:
+- Presentation:
+- Hands on Lab:
+- Additional Reading:
+- Project:

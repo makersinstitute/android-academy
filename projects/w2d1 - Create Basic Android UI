@@ -1,0 +1,32 @@
+![Makers Institute](../images/logo-makersinstitute.png)
+
+# Create Basic Android UI
+
+## Objective
+Practice Creating Basic Android UI
+
+In this project you will create a simple Android UI using both LinearLayout and RelativeLayout. And adding some TextView, ImageView, and EditText. Also make sure the screen has Toolbar and different height using elevation. Also create button with ripple effect is possible. Try to learn the minimum requeirements of applying every UI, because some of them only available on later Android version. ***Let's get started!***
+
+</br>
+
+### First: Create a New Android Studio Project
+
+</br>
+
+### Second: Sync Project with Gradle Files
+
+</br>
+
+### Third: Checking .gitignore file
+
+</br>
+
+### Fourth: Setup project with Version Control
+
+</br>
+
+### Fifth: See your published repository
+
+
+
+# Congrats!

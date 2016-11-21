@@ -148,12 +148,13 @@
   - [A newbie's guide to Android development](http://www.techrepublic.com/blog/software-engineer/a-newbies-guide-to-android-development/) 
   - [Margin and Padding](http://www.singhajit.com/android-padding-vs-margin/)
 - Presentation:
-  - [Material Design #1]() 
+  - [Material Design #1]()
 - Hands on Lab:
 - Additional Material:
   - [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/)
   - [Providing Resource](https://developer.android.com/guide/topics/resources/providing-resources.html)
   - [Resources for Screen Support](https://developer.android.com/guide/practices/screens_support.html#qualifiers)
+
 #### <a name="day22"></a>Day 2 - Bold Graphic Design, Meaningful Motion
 - Learning Objectives:
 - Pre-reading:
@@ -161,6 +162,7 @@
   - [Material Design #2]()
 - Hands on Lab:
 - Additional Material:
+
 #### <a name="day23"></a>Day 3 - Adaptive Design, Project
 - Learning Objectives:
 - Pre-reading:

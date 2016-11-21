@@ -150,7 +150,7 @@
   - [Themes and Styles](https://chris.banes.me/2014/11/12/theme-vs-style/)
   - [LinearLayout and RelativeLayout](http://www.journaldev.com/9495/android-layout-linearlayout-relativelayout-example-tutorial)
 - Presentation:
-  - [Material Design #1]()
+  - [Material Design #1](https://docs.google.com/presentation/d/1kJdoubeGvk3gdOH2ZPxfqTux2njmBAAkJ3Vc1bPQE8k/edit?usp=sharing)
 - Hands on Lab:
   - [Create Basic Android UI](https://github.com/makersinstitute/android-academy/blob/master/projects/w2d1%20-%20Create%20Basic%20Android%20UI.md)
 - Additional Material:

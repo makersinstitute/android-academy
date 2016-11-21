@@ -152,6 +152,7 @@
 - Presentation:
   - [Material Design #1]()
 - Hands on Lab:
+  - [Create Basic Android UI](https://github.com/makersinstitute/android-academy/blob/master/projects/w2d1%20-%20Create%20Basic%20Android%20UI)
 - Additional Material:
   - [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/)
   - [Providing Resource](https://developer.android.com/guide/topics/resources/providing-resources.html)

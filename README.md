@@ -132,3 +132,42 @@
 - Additional Reading:
   - [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
   
+## <a name="week2"></a>Week 2
+
+#### <a name="day21"></a>Day 1 - Android design fundamental, Surfaces
+- Learning Objectives:
+  - Students will understand basic Android Design
+  - Students know different use of project resources
+  - Students know different type of layouts
+  - Students know about surface reactions
+  - Students able to implement some common design pattern
+  - Students able to applying theme and style
+  - Students can implements surface reactions
+  - Students able to design a single screen layout using different layout types
+- Pre-reading:
+  - [A newbie's guide to Android development](http://www.techrepublic.com/blog/software-engineer/a-newbies-guide-to-android-development/) 
+  - [Margin and Padding](http://www.singhajit.com/android-padding-vs-margin/)
+- Presentation:
+  - [Material Design #1]()
+- Hands on Lab:
+- Additional Material:
+  - [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/)
+  - [Providing Resource](https://developer.android.com/guide/topics/resources/providing-resources.html)
+  - [Resources for Screen Support](https://developer.android.com/guide/practices/screens_support.html#qualifiers)
+
+#### <a name="day22"></a>Day 2 - Bold Graphic Design, Meaningful Motion
+- Learning Objectives:
+- Pre-reading:
+- Presentation:
+  - [Material Design #2]()
+- Hands on Lab:
+- Additional Material:
+
+#### <a name="day23"></a>Day 3 - Adaptive Design, Project
+- Learning Objectives:
+- Pre-reading:
+- Presentation:
+  - [Material Design #3]()
+- Hands on Lab:
+- Additional Material:
+- Project:

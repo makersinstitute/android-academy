@@ -147,6 +147,8 @@
 - Pre-reading:
   - [A newbie's guide to Android development](http://www.techrepublic.com/blog/software-engineer/a-newbies-guide-to-android-development/) 
   - [Margin and Padding](http://www.singhajit.com/android-padding-vs-margin/)
+  - [Themes and Styles](https://chris.banes.me/2014/11/12/theme-vs-style/)
+  - [LinearLayout and RelativeLayout](http://www.journaldev.com/9495/android-layout-linearlayout-relativelayout-example-tutorial)
 - Presentation:
   - [Material Design #1]()
 - Hands on Lab:

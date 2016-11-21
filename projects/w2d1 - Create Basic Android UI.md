@@ -29,12 +29,12 @@ Put them under LinearLayout or RelativeLayout, or maybe both. Arrange them to lo
 
 </br>
 
-### Fifth: Add Ripple effect and/or Elevation effect.
+### Optional: Add Ripple effect and Elevation effect.
 
 
 </br>
 
-### Sixth: Give your final touch
+### Fifth: Give your final touch
 For example, give a theme and/or style. Also make the UI looks beauty by configuring [margin and padding](http://www.singhajit.com/android-padding-vs-margin/). Take a look at [here](https://material.google.com/layout/metrics-keylines.html#metrics-keylines-baseline-grids) to use Google's spec.
 
 

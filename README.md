@@ -163,6 +163,7 @@
 - Pre-reading:
   - [Typography](https://material.google.com/style/typography.html)
   - [Image Scale Type](https://robots.thoughtbot.com/android-imageview-scaletype-a-visual-guide)
+  - [Material Motion](https://material.google.com/motion/material-motion.html)
 - Presentation:
   - [Material Design #2](https://docs.google.com/presentation/d/1P2XoJXCsrHPaKYbafKewj40MLLuqPSjypUop14Le6I8/edit?usp=sharing)
 - Hands on Lab:
@@ -170,6 +171,8 @@
   - [Color Branding Example](http://namethatblue.com/)
   - [Material Design Icons](https://materialdesignicons.com/)
   - [Anatomy of a Typeface](http://typedia.com/learn/only/anatomy-of-a-typeface/)
+  - [Running App on Device](https://developer.android.com/training/basics/firstapp/running-app.html)
+  - [Enable Android Debugging](http://www.howtogeek.com/129728/how-to-access-the-developer-options-menu-and-enable-usb-debugging-on-android-4.2/)
 
 #### <a name="day23"></a>Day 3 - Adaptive Design, Project
 - Learning Objectives:

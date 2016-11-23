@@ -162,9 +162,12 @@
 - Learning Objectives:
 - Pre-reading:
 - Presentation:
-  - [Material Design #2]()
+  - [Material Design #2](https://docs.google.com/presentation/d/1P2XoJXCsrHPaKYbafKewj40MLLuqPSjypUop14Le6I8/edit?usp=sharing)
 - Hands on Lab:
 - Additional Material:
+  - [Color Branding Example](http://namethatblue.com/)
+  - [Material Design Icons](https://materialdesignicons.com/)
+  - [Anatomy of a Typeface](http://typedia.com/learn/only/anatomy-of-a-typeface/)
 
 #### <a name="day23"></a>Day 3 - Adaptive Design, Project
 - Learning Objectives:

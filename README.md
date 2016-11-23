@@ -161,6 +161,8 @@
 #### <a name="day22"></a>Day 2 - Bold Graphic Design, Meaningful Motion
 - Learning Objectives:
 - Pre-reading:
+  - [Typography](https://material.google.com/style/typography.html)
+  - [Image Scale Type](https://robots.thoughtbot.com/android-imageview-scaletype-a-visual-guide)
 - Presentation:
   - [Material Design #2](https://docs.google.com/presentation/d/1P2XoJXCsrHPaKYbafKewj40MLLuqPSjypUop14Le6I8/edit?usp=sharing)
 - Hands on Lab:

@@ -171,6 +171,7 @@
 - Presentation:
   - [Material Design #2](https://docs.google.com/presentation/d/1P2XoJXCsrHPaKYbafKewj40MLLuqPSjypUop14Le6I8/edit?usp=sharing)
 - Hands on Lab:
+  - [Add Animation and Transition to Your App](https://github.com/makersinstitute/android-academy/blob/master/instructions/w2d2%20-%20Create%20a%20Birthday%20Greetings%20App.md)
 - Additional Material:
   - [Color Branding Example](http://namethatblue.com/)
   - [Material Design Icons](https://materialdesignicons.com/)

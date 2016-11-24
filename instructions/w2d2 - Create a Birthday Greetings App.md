@@ -59,4 +59,9 @@ The reason why there are no padding or margin to it's parent, because we are goi
 ### Sixth: Run Again on Your Device
 It should be working by now. If not, try to ask the instructor or Google it by yourself.
 
+</br>
+
+### Seventh: Add Costumization
+The app might look boring. Try to add themme, or styles. Maybe playing with some color contrast, [here](https://material.google.com/style/color.html#color-color-palette) between view. Make sure you follow some typography guidelines from Material Design, [here](https://material.google.com/style/typography.html) to let user feel comfortable.
+
 # Congrats!

@@ -160,6 +160,10 @@
 
 #### <a name="day22"></a>Day 2 - Bold Graphic Design, Meaningful Motion
 - Learning Objectives:
+  - Students understand how to make a proper design easily understood by the user.
+  - Student know about grid and keylines when designing user interface.
+  - Student able to choose an appropriate colors, typography, and size metrics to build the UI.
+  - Student can implement basic animation and transition.
 - Pre-reading:
   - [Typography](https://material.google.com/style/typography.html)
   - [Image Scale Type](https://robots.thoughtbot.com/android-imageview-scaletype-a-visual-guide)

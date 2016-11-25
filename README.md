@@ -198,7 +198,7 @@
   - Student will understand conditional statement
 - Pre-reading:
 - Presentation:
-  - [Java Fundamental #2](https://drive.google.com/open?id=1mrdXJjRDf7DSIY2ojkxUrnKSRM0oHmbdVXgJjwGYe0I)
+  - [Java Fundamental #1](https://drive.google.com/open?id=1mrdXJjRDf7DSIY2ojkxUrnKSRM0oHmbdVXgJjwGYe0I)
 - Hands on Lab:
-  -[intro java programming](https://github.com/makersinstitute/android-academy/blob/master/instructions/w3d1%20-%20Java%20basic.md)
+  - [intro java programming](https://github.com/makersinstitute/android-academy/blob/master/instructions/w3d1%20-%20Java%20basic.md)
 - Additional Material:

@@ -96,7 +96,7 @@ Fahrenheit = 86
 **6.** Write a java program to swap value of two variable.     
 *Test Data:*
 ```
-Variable 1: 5
+Variable 1 : 5
 Variable 2 : 6
 ```
 *Expected Output:*

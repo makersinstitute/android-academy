@@ -187,6 +187,8 @@
 - Pre-reading:
   - [Responsive UI](https://material.google.com/layout/responsive-ui.html)
   - [Responsive vs Adaptive Design](https://www.uxpin.com/studio/blog/responsive-vs-adaptive-design-whats-best-choice-designers/)
+  - [Providing Resources - Android Developer Guide](https://developer.android.com/guide/topics/resources/providing-resources.html)
+  - [Screen Support - Android Developer Guide](https://developer.android.com/guide/practices/screens_support.html)
 - Presentation:
   - [Material Design #3](https://docs.google.com/presentation/d/13ZECMfpBw0U8hJ7sQH8g9WdkyLBN011TrLT17BxNEXo/edit?usp=sharing)
 - Hands on Lab:

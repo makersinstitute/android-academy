@@ -2,7 +2,7 @@
 
 # Adaptive Design: Contact App
 
-![Contact App](../images/w2d3.jpg)
+![Contact App](../images/w2d3%20-%201.jpg)
 
 ## Objective
 

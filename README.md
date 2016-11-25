@@ -13,7 +13,7 @@
   * [Day 3 - Adaptive Design, Project](#day23)
   
 * [Week 3 - Fundamental Java Programming](#week3)
-  * [Day 1 - Introduction to Java, Obect, Class](#day31)
+  * [Day 1 - Introduction to Java,Variable, Conditional Statement](#day31)
   * [Day 2 - Fundamental Data Types, Decision, Loops](#day32)
   * [Day 3 - Arraylist, Class, Interfaces & Inheritance](#day33)
   

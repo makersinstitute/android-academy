@@ -80,6 +80,31 @@ The average of 10, 15,30,25 is 20
 ``` 
 area of circle : 208.56665
 ```
+---
+
+**5.** Write a java program to convert from celsius degrees to Kelvin and Fahrenheit.     
+*Test Data:*
+```
+30
+```
+*Expected Output:*
+```
+Kelvin = 303
+Fahrenheit = 86
+```
+---
+**6.** Write a java program to swap value of two variable.     
+*Test Data:*
+```
+Variable 1: 5
+Variable 2 : 6
+```
+*Expected Output:*
+```
+After Swapping :
+Variable 1 : 6 
+Variable 2 : 5 
+```
 
 ---
 

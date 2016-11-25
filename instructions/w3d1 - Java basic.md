@@ -83,7 +83,7 @@ area of circle : 208.56665
 
 ---
 
-##<a name="lab3"></a>Conditional staement
+##<a name="lab3"></a>Conditional statement
 **1.** Define booelean variable isSnowing and give a value to variabel. Write an if statement that prints out "Today snowy" when isSnowing is true.
 
 ---

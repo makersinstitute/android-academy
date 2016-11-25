@@ -5,6 +5,9 @@
 ![Contact App](../images/w2d3%20-%201.jpg)
 
 ## Objective
+Practice Adaptive Design for potrait and landscape view on mobile device.
+
+In this project you will create a Contact App that will have a different layout on different phone orientation. By giving some configuration on layout resources. Since one of it's feature only work on API 21 or higher, you will have to import a module on your build.gradle, the instructors will help you solve this issues. **Let's get started!**
 
 </br>
 

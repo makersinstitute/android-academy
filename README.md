@@ -181,12 +181,17 @@
 
 #### <a name="day23"></a>Day 3 - Adaptive Design, Project
 - Learning Objectives:
+  - Student know different kind of design problem.
+  - Student know the solution to solve design problem using adaptive design
+  - Student able to design a simple adaptive UI design
 - Pre-reading:
+  - [Responsive UI](https://material.google.com/layout/responsive-ui.html)
+  - [Responsive vs Adaptive Design](https://www.uxpin.com/studio/blog/responsive-vs-adaptive-design-whats-best-choice-designers/)
 - Presentation:
-  - [Material Design #3]()
+  - [Material Design #3](https://docs.google.com/presentation/d/13ZECMfpBw0U8hJ7sQH8g9WdkyLBN011TrLT17BxNEXo/edit?usp=sharing)
 - Hands on Lab:
 - Additional Material:
-- Project:
+  - [Device Metrics Tool](https://design.google.com/tool/devices/)
 
 
 ## <a name="week3"></a>Week 3
@@ -197,10 +202,10 @@
   - Student will understand variable
   - Student will understand conditional statement
 - Pre-reading:
-  - [Introduction Java programming](http://www.wideskills.com/java-tutorial/introduction-to-java-programming)
+  - [Introduction Java Programming](http://www.wideskills.com/java-tutorial/introduction-to-java-programming)
 - Presentation:
   - [Java Fundamental #1](https://drive.google.com/open?id=1mrdXJjRDf7DSIY2ojkxUrnKSRM0oHmbdVXgJjwGYe0I)
 - Hands on Lab:
-  - [intro java programming](https://github.com/makersinstitute/android-academy/blob/master/instructions/w3d1%20-%20Java%20basic.md)
+  - [Intro Java Programming](https://github.com/makersinstitute/android-academy/blob/master/instructions/w3d1%20-%20Java%20basic.md)
 - Additional Reading:
-  - [First java program](http://beginnersbook.com/2013/05/first-java-program/)
+  - [First Java Program](http://beginnersbook.com/2013/05/first-java-program/)

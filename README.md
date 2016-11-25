@@ -155,7 +155,8 @@
   - [Create Basic Android UI](https://github.com/makersinstitute/android-academy/blob/master/projects/w2d1%20-%20Create%20Basic%20Android%20UI.md)
 - Additional Material:
   - [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/)
-  - [Providing Resource](https://developer.android.com/guide/topics/resources/providing-resources.html)
+
+- [Providing Resource](https://developer.android.com/guide/topics/resources/providing-resources.html)
   - [Resources for Screen Support](https://developer.android.com/guide/practices/screens_support.html#qualifiers)
 
 #### <a name="day22"></a>Day 2 - Bold Graphic Design, Meaningful Motion
@@ -192,6 +193,7 @@
 - Presentation:
   - [Material Design #3](https://docs.google.com/presentation/d/13ZECMfpBw0U8hJ7sQH8g9WdkyLBN011TrLT17BxNEXo/edit?usp=sharing)
 - Hands on Lab:
+  - [Create a Contact App](https://github.com/makersinstitute/android-academy/blob/master/projects/w2d3%20-%20Adaptive%20Design.md)
 - Additional Material:
   - [Device Metrics Tool](https://design.google.com/tool/devices/)
 

@@ -191,7 +191,7 @@
 
 ## <a name="week3"></a>Week 3
 
-####<a name="31"></a>Day 1 - Introcuction java, variable, Conditional statement
+####<a name="day31"></a>Day 1 - Introcuction java, variable, Conditional statement
 - Learning Objecties : 
   - Student know about java programming
   - Student will understand variable

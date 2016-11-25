@@ -197,8 +197,10 @@
   - Student will understand variable
   - Student will understand conditional statement
 - Pre-reading:
+  - [Introduction Java programming](http://www.wideskills.com/java-tutorial/introduction-to-java-programming)
 - Presentation:
   - [Java Fundamental #1](https://drive.google.com/open?id=1mrdXJjRDf7DSIY2ojkxUrnKSRM0oHmbdVXgJjwGYe0I)
 - Hands on Lab:
   - [intro java programming](https://github.com/makersinstitute/android-academy/blob/master/instructions/w3d1%20-%20Java%20basic.md)
-- Additional Material:
+- Additional Reading:
+  - [First java program](http://beginnersbook.com/2013/05/first-java-program/)

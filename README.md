@@ -15,7 +15,7 @@
 * [Week 3 - Fundamental Java Programming](#week3)
   * [Day 1 - Introduction to Java,Variable, Conditional Statement](#day31)
   * [Day 2 - Functions , Loop, Introduction Object Oriented Programming](#day32)
-  * [Day 3 - Arraylist, Class, Interfaces & Inheritance](#day33)
+  * [Day 3 - Object Oriented Programming Part 2(#day33)
   
 * [Week 4 - Project 1 : Build Single Screen App](#week4)
   * [Day 1 - Building Layouts Part 1](#day41)

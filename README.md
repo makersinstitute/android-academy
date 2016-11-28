@@ -14,7 +14,7 @@
   
 * [Week 3 - Fundamental Java Programming](#week3)
   * [Day 1 - Introduction to Java,Variable, Conditional Statement](#day31)
-  * [Day 2 - Fundamental Data Types, Decision, Loops](#day32)
+  * [Day 2 - Functions , Loop, Introduction Object Oriented Programming](#day32)
   * [Day 3 - Arraylist, Class, Interfaces & Inheritance](#day33)
   
 * [Week 4 - Project 1 : Build Single Screen App](#week4)
@@ -200,7 +200,7 @@
 
 ## <a name="week3"></a>Week 3
 
-####<a name="day31"></a>Day 1 - Introcuction java, variable, Conditional statement
+####<a name="day31"></a>Day 1 - Introduction Java, Variable, Conditional Statement
 - Learning Objecties : 
   - Student know about java programming
   - Student will understand variable
@@ -213,3 +213,15 @@
   - [Intro Java Programming](https://github.com/makersinstitute/android-academy/blob/master/instructions/w3d1%20-%20Java%20basic.md)
 - Additional Reading:
   - [First Java Program](http://beginnersbook.com/2013/05/first-java-program/)
+  
+####<a name="day32"></a>Day 2 - Functions , Loop, Introduction Object Oriented Programming
+- Learning Objecties : 
+  - Student know about function
+  - Student know about loop
+  - Student know about concept OOP 
+- Pre-reading:
+- Presentation:
+  - [Java Fundamental #2](https://docs.google.com/presentation/d/14hswuDFYpHVxprD-lOfFqRKnuf1FA_nlDWxwfrhgbPA/edit?usp=sharing)
+- Hands on Lab:
+  - [Functions, Loops, Introduction Object Oriented Programming](https://github.com/makersinstitute/android-academy/blob/master/instructions/w3d2%20-%20Method%2C%20Loops%2C%20Object%20Oriented%20Programming%20Part%201.md)
+- Additional Reading:

@@ -220,8 +220,12 @@
   - Student know about loop
   - Student know about concept OOP 
 - Pre-reading:
+  - [Object Oriented Programming Concept](https://docs.oracle.com/javase/tutorial/java/concepts/) 
+  - [Object and Class](http://www.adobe.com/devnet/actionscript/learning/oop-concepts/objects-and-classes.html)
+  - [Array](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
 - Presentation:
   - [Java Fundamental #2](https://docs.google.com/presentation/d/14hswuDFYpHVxprD-lOfFqRKnuf1FA_nlDWxwfrhgbPA/edit?usp=sharing)
 - Hands on Lab:
   - [Functions, Loops, Introduction Object Oriented Programming](https://github.com/makersinstitute/android-academy/blob/master/instructions/w3d2%20-%20Method%2C%20Loops%2C%20Object%20Oriented%20Programming%20Part%201.md)
 - Additional Reading:
+  - [OOP Concept in Java](http://beginnersbook.com/2013/04/oops-concepts/)

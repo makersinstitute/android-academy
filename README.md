@@ -236,8 +236,13 @@
   - Student know about Abstract class
   - Student know about Interface 
 - Pre-reading:
+  - [Object Oriented Programming](https://www.codeproject.com/articles/27775/object-oriented-programming-concepts)
+  - [How to design Object Oriented Project?](http://stackoverflow.com/questions/1100819/how-do-you-design-object-oriented-projects)
 - Presentation:
   - [Java Fundamental #3](https://docs.google.com/presentation/d/136W53qkDNy2VmP3cV_g1segxwgiHU8QhV1azZzO-9FE/edit?usp=sharing)
 - Hands on Lab:
   - [Object Oriented Programming Part 2](https://github.com/makersinstitute/android-academy/blob/master/instructions/w3d3%20-%20OOP%20Part%202.md)
 - Additional Reading:
+  - [Object Oriented Programming Basic](https://www3.ntu.edu.sg/home/ehchua/programming/java/J3a_OOPBasics.html)
+  - [Java Object Oriented Programming Concept](http://www.w3resource.com/java-tutorial/java-object-oriented-programming.php)
+  - [Class Design](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Class%20Design/classes.html)

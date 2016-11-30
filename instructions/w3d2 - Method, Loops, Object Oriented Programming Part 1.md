@@ -174,4 +174,5 @@ Elements of array in sorted ascending order:
 **1.** Create class called `Circle` contains:
 - Two private instance variables: `radius` (of the type `double`) and `color` (of the type `String`), with default value of `1.0` and `"red"`, respectively.
 - Two public methods: `getRadius()` and `getArea()`, which return the `radius` and area of this instance, respectively.
+
 Next, create object use circle class 

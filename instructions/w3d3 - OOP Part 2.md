@@ -102,3 +102,7 @@ public interface Activity  {
 For `Teacher` class, you have to add *private* field `subject` type **string**, and add *getter* and *setter* method for `subject`. Declare `myActivity()` method from *Activity* interface that print like this **"`name` is teaching `subject` right now."**. `name` and `subject` are fields from this class. 
 
 And for `Student` class, you have to add *private* field `subject` and *private* field `score`. `subject` is type **string** and `score` is type **integer**. Declare `myActivity()` method from *Activity* intereface that print like this **"My name is `name`. I have `subject` homework and get a score of `score`. `name` ,`score` and `subject` are fields from this class
+
+---
+## <a name="lab4"></a>4. Random class
+First go to [here](https://docs.oracle.com/javase/8/docs/api/java/util/Random.html). On that website there is `Random` Class. Your task is to create an object from `Random` class and use it for random number.

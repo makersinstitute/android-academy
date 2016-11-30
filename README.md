@@ -229,3 +229,15 @@
   - [Functions, Loops, Introduction Object Oriented Programming](https://github.com/makersinstitute/android-academy/blob/master/instructions/w3d2%20-%20Method%2C%20Loops%2C%20Object%20Oriented%20Programming%20Part%201.md)
 - Additional Reading:
   - [OOP Concept in Java](http://beginnersbook.com/2013/04/oops-concepts/)
+  
+####<a name="day33"></a>Day 3 - Object Oriented Programming Part 2
+- Learning Objecties : 
+  - Student know about Inheritance
+  - Student know about Abstract class
+  - Student know about Interface 
+- Pre-reading:
+- Presentation:
+  - [Java Fundamental #3](https://docs.google.com/presentation/d/136W53qkDNy2VmP3cV_g1segxwgiHU8QhV1azZzO-9FE/edit?usp=sharing)
+- Hands on Lab:
+  - [Object Oriented Programming Part 2](https://github.com/makersinstitute/android-academy/blob/master/instructions/w3d3%20-%20OOP%20Part%202.md)
+- Additional Reading:

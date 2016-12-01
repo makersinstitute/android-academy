@@ -158,7 +158,7 @@ Minimum element is : 9
 
 ---
 
-**5.** Write a program in java to sort elements of array in ascending order.    
+**5.** Write a program in java to sort elements of array in ascending order.     
 *Test Data:*
 ```
 int number[]= {2,7,5,9,4}
@@ -168,7 +168,7 @@ int number[]= {2,7,5,9,4}
 Elements of array in sorted ascending order: 
 2 4 5 7 9
 ```
-
+[Tutorial about sorting](http://www.java2novice.com/java-sorting-algorithms/selection-sort/)
 ---
 
 ## <a name="lab4"></a>Introduction OOP

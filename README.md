@@ -229,6 +229,7 @@
   - [Functions, Loops, Introduction Object Oriented Programming](https://github.com/makersinstitute/android-academy/blob/master/instructions/w3d2%20-%20Method%2C%20Loops%2C%20Object%20Oriented%20Programming%20Part%201.md)
 - Additional Reading:
   - [OOP Concept in Java](http://beginnersbook.com/2013/04/oops-concepts/)
+  - [Sorting](http://www.java2novice.com/java-sorting-algorithms/selection-sort/)
   
 ####<a name="day33"></a>Day 3 - Object Oriented Programming Part 2
 - Learning Objecties : 

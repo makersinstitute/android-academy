@@ -228,8 +228,8 @@
 - Hands on Lab:
   - [Functions, Loops, Introduction Object Oriented Programming](https://github.com/makersinstitute/android-academy/blob/master/instructions/w3d2%20-%20Method%2C%20Loops%2C%20Object%20Oriented%20Programming%20Part%201.md)
 - Additional Reading:
-  - [OOP Concept in Java](http://beginnersbook.com/2013/04/oops-concepts/)
   - [Sorting](http://www.java2novice.com/java-sorting-algorithms/selection-sort/)
+  - [OOP Concept in Java](http://beginnersbook.com/2013/04/oops-concepts/)
   
 ####<a name="day33"></a>Day 3 - Object Oriented Programming Part 2
 - Learning Objecties : 
@@ -244,6 +244,7 @@
 - Hands on Lab:
   - [Object Oriented Programming Part 2](https://github.com/makersinstitute/android-academy/blob/master/instructions/w3d3%20-%20OOP%20Part%202.md)
 - Additional Reading:
+  - [Class Design](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Class%20Design/classes.html)
   - [Object Oriented Programming Basic](https://www3.ntu.edu.sg/home/ehchua/programming/java/J3a_OOPBasics.html)
   - [Java Object Oriented Programming Concept](http://www.w3resource.com/java-tutorial/java-object-oriented-programming.php)
-  - [Class Design](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Class%20Design/classes.html)
+

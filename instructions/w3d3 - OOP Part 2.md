@@ -54,7 +54,7 @@ Weight of Animal is 1.0 Kg and Height of Animal is 1.4 m tall.
 **2.** Add `getter` and `setter` method for height and tall to `Animal` class.
 
 **3.** Create `Sheep` class, `Dog` class, `Cat` class that inherit from `Animal` class.  
-*example*
+*example : *
 ```
 public Sheep extends Animal{
 

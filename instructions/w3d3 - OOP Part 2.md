@@ -43,7 +43,8 @@ public Block(double width,double height,double length){
 **1.** Create a abstract class called `Animal` contains:
 - Two private instance variables: `weight` (of the type `double`) and `tall` (of the type `double`), with default value of `1.0` and `1.0`.
 - Two overloaded constructors - a default constructor with no argument and a constructors with two arguments for weight and tall
-- One public methods: `showWeightAndTall()` with no argument for show a tall and weight
+- One public methods: `showWeightAndTall()` with no argument for show a tall and weight. 
+
 *Expected output from `showWeightAndTall()` method*
 ```
 The Height of Animal is 1.0 and The Tall of ANimal is 1.4 m

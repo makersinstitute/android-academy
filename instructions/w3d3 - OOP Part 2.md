@@ -19,7 +19,16 @@
 
 **5.** Add `getter` and `setter` method for `length` to `Block` class. 
 
-**6.** Add two overload constructors - a default constructor with no argument and a constructor with tree arguments for width, height, and length. In countructor with three argument use keyword `super` for access a parent contructor (`Rectangle` class) for width and height.  
+**6.** Add two overload constructors - a default constructor with no argument and a constructor with tree arguments for width, height, and length. In countructor with three argument use keyword `super` for access a parent contructor (`Rectangle` class) for width and height. 
+
+*Example*
+
+```
+public Block(double width,double height,double length){
+    super(width,height);
+    mLength = length;
+}
+```
 
 **7.** Add method `getVolume()` which return volume of block. 
 

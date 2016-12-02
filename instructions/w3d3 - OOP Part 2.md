@@ -41,19 +41,29 @@ public Block(double width,double height,double length){
 ## <a name="lab2"></a>2. Animal class, Sheep class , Dog class, and Cat class
 
 **1.** Create a abstract class called `Animal` contains:
-- Two private instance variables: `weight` (of the type `double`) and `tall` (of the type `double`), with default value of `1.0` and `1.0`.
-- Two overloaded constructors - a default constructor with no argument and a constructors with two arguments for weight and tall
-- One public methods: `showWeightAndTall()` with no argument for show a tall and weight. 
+- Two private instance variables: `weight` (of the type `double`) and `height` (of the type `double`), with default value of `1.0` and `1.0`.
+- Two overloaded constructors - a default constructor with no argument and a constructors with two arguments for weight and height.
+- One public void methods: `showWeightAndTall()` with no argument for show a tall and weight. 
 
 *Expected output from `showWeightAndTall()` method*
 ```
-The Height of Animal is 1.0 and The Tall of ANimal is 1.4 m
+Weight of Animal is 1.0 Kg and Height of Animal is 1.4 m tall. 
 ```
-- One abstract method : `sound()` with no argument to print sound of animal.
+- One abstract void method : `sound()` with no argument to print sound of animal.
 
 **2.** Add `getter` and `setter` method for height and tall to `Animal` class.
 
 **3.** Create `Sheep` class, `Dog` class, `Cat` class that inherit from `Animal` class.  
+```
+public Sheep extends Animal{
+
+    public void sound(){
+    System.out.println("Embe Embe...");
+    }
+
+}
+```
+
 
 **4.** Declare a `sound()` for each class but with different output. 
 
@@ -109,7 +119,18 @@ public interface Activity  {
 }
 ```
 
-For `Teacher` class, you have to add *private* field `subject` type **string**, and add *getter* and *setter* method for `subject`. Declare `myActivity()` method from *Activity* interface that print like this **"`name` is teaching `subject` right now."**. `name` and `subject` are fields from this class. 
+For `Teacher` class, you have to add *private* field `subject` type **string**, and add *getter* and *setter* method for `subject`. Declare `myActivity()` method from *Activity* interface that print like this **`name` is teaching `subject` right now.** `name` and `subject` are fields from this class. 
+
+*Example*
+```
+public class Teacher extends Person implements Activity{
+
+    public void myActivity(){
+        //add some code 
+    }
+
+}
+```
 
 And for `Student` class, you have to add *private* field `subject` and *private* field `score`. `subject` is type **string** and `score` is type **integer**. Declare `myActivity()` method from *Activity* intereface that print like this **"My name is `name`. I have `subject` homework and get a score of `score`. `name` ,`score` and `subject` are fields from this class
 

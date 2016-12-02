@@ -57,12 +57,12 @@ The Height of Animal is 1.0 and The Tall of ANimal is 1.4 m
 
 **4.** Declare a `sound()` for each class but with different output. 
 
-*Expected output from method sound in Dog class*
+*Expected output from `sound()` method in Dog class*
 ```
 Gog gog
 ```
 
-*Example output from method sound in Sheep class* 
+*Example output from `sound()` method in Sheep class* 
 ```
 Embe embe....
 ```

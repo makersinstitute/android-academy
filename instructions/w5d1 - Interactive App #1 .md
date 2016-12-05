@@ -15,19 +15,21 @@ Create new project in android studio
 ---
 
 ### <a name="lab12"></a>2. Build Layout Part 1
-1. Create layout like this. 
+1. Create layout like this.
 
+    ![Gambar 1](../images/w5d1%20-%201.PNG)
 2. Add atribut `android:id` to TextView which display the number of milk order with value id `@+id/quantityMilkTextView`
     ```
     android:id="@+id/quantityMilkTextView"
     ```
-
+    
 ---
 
 ### <a name="lab13"></a>3. Build Layout Part 2
 
 1. Add 2 text view to layout. 
 
+    ![Gambar 2](../images/w5d1%20-%202.PNG)
 2. Add atribut `android:id` to TextView which displays the total price of milk order with value id `@+id/priceOrderMilkTextView`. 
     ```
     android:id="@+id/priceOrderMilkTextView"
@@ -38,6 +40,8 @@ Create new project in android studio
 ### <a name="lab14"></a>4. Build Layout Part 3
 
 1. Add 2 button for increment and decrement the number of milk order
+
+    ![Gambar 3](../images/w5d1%20-%203.PNG)
 
 ---
 

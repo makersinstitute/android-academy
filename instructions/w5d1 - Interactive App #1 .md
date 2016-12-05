@@ -40,18 +40,22 @@ android:id="@+id/priceOrderMilkTextView"
 ```
 int quantityOfMilk = 0;
 ```
+
 2. Add atribut `android:onClick` to button that increment the number of milk order in `activity_main.xml` 
 ```
 android:onClick="incrementOrder"
 ```
+
 3. Create new global variabel `TextView` with name `quantityTextView` to MainActivity.java
 ```
 TextView quantityTextView;
 ```
+
 4. Assign value to `quantityTextView` use `findViewById()` in `onCreate()` function 
 ```
 quantityTextView = (TextView)findViewById(R.id.quantityMilkTextView);
 ``` 
+
 5. Add void function `incrementOrder()` to increment the number of milk order and displaying an quantity of ordering milk 
 ```Java
 public void incrementOrder(View view){
@@ -61,6 +65,7 @@ public void incrementOrder(View view){
     quantityTextView.setText("" + quantityOfMilk);
 }
 ``` 
+
 6. Run app on your android device 
 
 ---
@@ -70,6 +75,7 @@ public void incrementOrder(View view){
 ```
 android:onClick="decrementOrder"
 ``` 
+
 2. Add void function `decrementOrder()` to decrement the number of milk order 
 ```Java
 public void decrementOrder(View view){
@@ -78,7 +84,8 @@ public void decrementOrder(View view){
     //displaying a quantity of order milk
     quantityTextView.setText("" + quantityOfMilk);
 }
-``` 
+```
+
 3. Run app on your android device 
 
 ---

@@ -248,3 +248,59 @@
   - [Object Oriented Programming Basic](https://www3.ntu.edu.sg/home/ehchua/programming/java/J3a_OOPBasics.html)
   - [Java Object Oriented Programming Concept](http://www.w3resource.com/java-tutorial/java-object-oriented-programming.php)
 
+## <a name="week4"></a>Week 4
+
+####<a name="day41"></a>Day 1 - Building Layouts Part 1
+- Learning Objecties : 
+  - Students understand about Views in Android
+  - Students able to talk to the phone using XML Editor
+  - Students able to use many XML attributes for TextView and ImageView
+  - Students able to resolve any error occured
+  - Students able to use Android Documentations
+
+- Pre-reading:
+  - [Typeface](https://material.google.com/style/typography.html#typography-typeface)
+  - [Text Appearance Tips](https://plus.google.com/+AndroidDevelopers/posts/gQuBtnuk6iG)
+  - [Commond Android View CheatSheet](https://drive.google.com/file/d/0B5XIkMkayHgRMVljUVIyZzNmQUU/view)
+  
+- Presentation:
+  - [Building Layouts Part 1](https://docs.google.com/presentation/d/1xXtpH6NkEdujdvv3cz1pZDuTdh5nLySuL-ZFCl5KcLk/edit?usp=sharing)
+- Hands on Lab:
+
+- Additional Material:
+  - [Android XML Visualizer](http://labs.udacity.com/android-visualizer/)
+  - [Android Vocabulary Glossary](https://developers.google.com/android/for-all/vocab-words/?hl=en)
+
+  
+####<a name="day42"></a>Day 2 - Building Layouts Part 2
+- Learning Objecties : 
+  - Students understand about ViewGroup
+  - Students able to use any attributes related to LinearLayout
+  - Students able to use any attributes related to RelativeLayout
+  - Students able to properly use padding and margin
+  - Students able to use Android Documentations
+  
+- Pre-reading:
+  - [LinearLayout and RelativeLayout](http://www.journaldev.com/9495/android-layout-linearlayout-relativelayout-example-tutorial)
+  - [Margin and Padding](http://www.singhajit.com/android-padding-vs-margin/)
+  
+  
+- Presentation:
+  - [Building Layouts Part 2](https://docs.google.com/presentation/d/1E3SLeBF1vW8BYrVdTOB9l4riKmJHlVVvkhWG9AGUKIk/edit?usp=sharing)
+- Hands on Lab:
+  
+- Additional Material:
+ 
+  
+####<a name="day43"></a>Day 3 - Projects
+- Learning Objecties : 
+ 
+- Pre-reading:
+
+- Presentation:
+ 
+- Hands on Lab:
+  - [Build a Single Screen Apps](https://github.com/makersinstitute/android-academy/blob/master/projects/w4%20-%20Build%20a%20Single%20Screen%20App.md)
+ 
+- Additional Material:
+ 

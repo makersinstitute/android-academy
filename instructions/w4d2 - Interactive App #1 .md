@@ -1,6 +1,6 @@
 ![Makers Institute](https://makersinstitute.id/img/logo-makersinstitute.png)
 
-# Hands on Lab Week 5 - Day 1 (Milk Ordering App Part 1)
+# Hands on Lab Week 4 - Day 2 (Milk Ordering App Part 1)
 
 ### <a name="lab11"></a>1. Create New Project
 Create new project in android studio
@@ -30,7 +30,8 @@ Create new project in android studio
 1. Add 2 text view to layout. 
 
     ![Gambar 2](../images/w5d1%20-%202.PNG)
-2. Add atribut `android:id` to TextView which displays the total price of milk order with value id `@+id/priceOrderMilkTextView`. 
+2. Add atribut `android:id` to TextView which displays the total price of milk order with value id `@+id/priceOrderMilkTextView`.
+
     ```
     android:id="@+id/priceOrderMilkTextView"
     ```
@@ -48,6 +49,7 @@ Create new project in android studio
 ### <a name="lab15"></a>5. Increment Quantity of Order and Displaying Quantity of Milk Ordering 
 
 1. Add a `global` variable to `MainActivity.java` with an integer data type with the name of `quantityOfMilk` to store the the number of milk order with default value is 0. 
+
     ```
     int quantityOfMilk = 0;
     ```

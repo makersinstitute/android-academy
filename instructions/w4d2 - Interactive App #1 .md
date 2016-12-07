@@ -19,6 +19,7 @@ Create new project in android studio
 
     ![Gambar 1](../images/w5d1%20-%201.PNG)
 2. Add atribut `android:id` to TextView which display the number of milk order with value id `@+id/quantityMilkTextView`
+
     ```
     android:id="@+id/quantityMilkTextView"
     ```

@@ -5,8 +5,8 @@
 ### <a name="lab11"></a>1. Build Layout Part 4
 - Change the position of the increment button, quantitymilkTextView, and decrement button.
 - Use Horizontal LinearLayout
-
-  ![Gambar 1](../images/w5d1%20-%201.PNG)
+ 
+  ![Gambar 1](../images/w5d1%20-%204.png)
 
 ---
 

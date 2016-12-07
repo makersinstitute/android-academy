@@ -19,7 +19,7 @@
     int totalPriceOfOrderMilk = 0;  
     ```
 
-2. Add a global constant variable to MainActivity.java with an integer data type with the name of priceOfMilk to store price per milk with value is 5.   
+2. Add a global constant variable to MainActivity.java with an integer data type with the name of priceOfMilk to store the price of milk with value is 5.   
     ```
    final int priceOfMilk = 5; 
     ``` 

@@ -269,9 +269,13 @@
 
 ####<a name="day51"></a>Day 2 -  Developing Interactive App
 - Learning Objectives : 
-
+  - Students understand how to access a View and Layout from Java Class
+  - Students understand the different between Global and Local Variable
+  - Students understand how to debug a code
+  - Students able to implement the Global and Local variable through creating an App
 - Pre-reading:
-
+  - [Declaring Variables](https://docs.oracle.com/javase/tutorial/java/javaOO/variables.html)
+  - [Debug Your App](https://developer.android.com/studio/debug/index.html)
 - Presentation:
   - [Developing Interactive App](https://docs.google.com/presentation/d/1qzz1QCiYaAcgoPAGvGe0CZFiuFxPYVUpoIW_U9WbjvU/edit?usp=sharing)
 - Hands on Lab:
@@ -282,7 +286,10 @@
   
 ####<a name="day43"></a>Day 3 - Projects
 - Learning Objectives : 
-
+  - Students able to design a combination of LinearLayout and RelativeLayout
+  - Students able to use onClick method from XML layout's file
+  - Students able to use a simple mathematic's calculation using Java
+  - Students able to update a TextView based on button click
 - Project:
   - [Project Objectives](https://github.com/makersinstitute/android-academy/blob/master/projects/w4%20-%20Build%20a%20Football%20Score%20App.md)
 - Hands on Lab:

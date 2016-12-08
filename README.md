@@ -250,8 +250,8 @@
 
 ## <a name="week4"></a>Week 4
 
-####<a name="day41"></a>Day 1 - Building Layouts Part 1
-- Learning Objecties : 
+####<a name="day41"></a>Day 1 - Building Layouts
+- Learning Objectives : 
   - Students understand about Views in Android
   - Students able to talk to the phone using XML Editor
   - Students able to use many XML attributes for TextView and ImageView
@@ -267,23 +267,23 @@
   - [Android XML Visualizer](http://labs.udacity.com/android-visualizer/)
   - [Android Vocabulary Glossary](https://developers.google.com/android/for-all/vocab-words/?hl=en)
 
-####<a name="day42"></a>Day 2 - Building Layouts Part 2
-- Learning Objecties : 
-  - Students understand about ViewGroup
-  - Students able to use any attributes related to LinearLayout
-  - Students able to use any attributes related to RelativeLayout
-  - Students able to properly use padding and margin
-  - Students able to use Android Documentations
+####<a name="day51"></a>Day 2 -  Developing Interactive App
+- Learning Objectives : 
+
 - Pre-reading:
-  - [LinearLayout and RelativeLayout](http://www.journaldev.com/9495/android-layout-linearlayout-relativelayout-example-tutorial)
-  - [Margin and Padding](http://www.singhajit.com/android-padding-vs-margin/)
+
 - Presentation:
-  - [Building Layouts Part 2](https://docs.google.com/presentation/d/1E3SLeBF1vW8BYrVdTOB9l4riKmJHlVVvkhWG9AGUKIk/edit?usp=sharing)
+  - [Developing Interactive App](https://docs.google.com/presentation/d/1qzz1QCiYaAcgoPAGvGe0CZFiuFxPYVUpoIW_U9WbjvU/edit?usp=sharing)
+- Hands on Lab:
+  - [Milk Ordering App #1](https://github.com/makersinstitute/android-academy/blob/master/instructions/w4d2%20-%20Interactive%20App%20%231%20.md)
+  - [Milk Ordering App #2](https://github.com/makersinstitute/android-academy/blob/master/instructions/w4d3%20-%20Interactif%20App%20Part%202.md)
 - Additional Material:
  
   
 ####<a name="day43"></a>Day 3 - Projects
-- Learning Objecties : 
+- Learning Objectives : 
 
+- Project:
+  - [Project Objectives](https://github.com/makersinstitute/android-academy/blob/master/projects/w4%20-%20Build%20a%20Football%20Score%20App.md)
 - Hands on Lab:
-  - [Build a Single Screen Apps](https://github.com/makersinstitute/android-academy/blob/master/projects/w4%20-%20Build%20a%20Single%20Screen%20App.md)
+  - [Build a Score App](https://github.com/makersinstitute/android-academy/blob/master/instructions/w4d3%20-%20Building%20Score%20App.md)

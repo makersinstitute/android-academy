@@ -28,4 +28,7 @@ Be sure to include a ViewGroup (RelativeLayout or LinearLayout) and enough views
 </br>
 
 
-					Happy Coding
+# Let's Get Started
+
+#### Step 1
+We will create a new blank project.

@@ -314,6 +314,7 @@
 - Presentation:
   - [Object Oriented Programming #1](https://docs.google.com/presentation/d/1Zi9kXxJgVZEpeX_eS_eiQA5x4sFpSdWpcbd9qtYWqFU/edit?usp=sharing)
 - Hands on Lab:
+  - [Build an App Based on OOP](https://github.com/makersinstitute/android-academy/blob/master/instructions/w5d1%20-%20Build%20App%20Based%20on%20OOP.md)
 - Additional Material:
 
 

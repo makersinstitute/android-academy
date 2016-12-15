@@ -294,3 +294,32 @@
   - [Project Objectives](https://github.com/makersinstitute/android-academy/blob/master/projects/w4%20-%20Build%20a%20Football%20Score%20App.md)
 - Hands on Lab:
   - [Build a Score App](https://github.com/makersinstitute/android-academy/blob/master/instructions/w4d3%20-%20Building%20Score%20App.md)
+
+
+## <a name="week5"></a>Week 5
+
+####<a name="day51"></a>Day 1 - Object Oriented Programming #1
+- Learning Objectives : 
+  - Students understand about Object Oriented Programming
+  - Students able to define and call a method
+  - Students able to use return value
+  - Students able to access resource folder from code and XML
+  - Students able to inflate a layout and casting view
+  - Students understand about view hierarchy
+- Pre-reading:
+  - [Methods](https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html)
+  - [Passing Information to Methods](https://docs.oracle.com/javase/tutorial/java/javaOO/arguments.html)
+  - [Returning a Value from a Methods](https://docs.oracle.com/javase/tutorial/java/javaOO/returnvalue.html)
+  - [Accessing Resources](https://developer.android.com/guide/topics/resources/accessing-resources.html)
+- Presentation:
+  - [Object Oriented Programming #1](https://docs.google.com/presentation/d/1Zi9kXxJgVZEpeX_eS_eiQA5x4sFpSdWpcbd9qtYWqFU/edit?usp=sharing)
+- Hands on Lab:
+- Additional Material:
+
+
+####<a name="day52"></a>Day 2 - Object Oriented Programming #2 & Projects
+- Learning Objectives : 
+- Pre-reading:
+- Presentation:
+- Hands on Lab:
+- Additional Material:

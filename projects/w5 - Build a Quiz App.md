@@ -1,6 +1,17 @@
 ![Makers Institute](../images/logo-makersinstitute.png)
 -
 
+## Example of Final App
+
+You can experiment using RadioButton, or just provide anything you are already know, but make sure to include
+1. `ScrollView`
+2. `Checkbox`
+3. If/else statement
+4. Getting data from `EditText`
+
+![Makers Institute](../images/w5d2%20-%20p1.jpg)
+![Makers Institute](../images/w5d2%20-%20p2.jpg)
+
 ## Project Overview
 The Quiz App project is a chance for you to combine and practice everything you learned in this section of the Nanodegree program. You will be making your own Android app - taking it from the idea stage to building out the full app. You can share your app with family and friends, as well as with other students in this course.
 

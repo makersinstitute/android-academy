@@ -3,6 +3,7 @@
 # Hands on Lab Week 5 - Day 2 Part 2 (Ordering App #2)
 
 
+### First
 **You** will continue previous app by adding an `EditText` to make it look like this:
 
 ![Final App](../images/w5d2%20-%203.png)
@@ -15,3 +16,11 @@ Use Android Documentation to help you accomplish this app. Here are some insight
 4. Get the text using `editTextVariable.getText();`
 5. Apend the text into *Order Summary*
 6. Done!
+
+
+
+### Second (Optional)
+Add the Intent Code from the presentation slides into a button click action, `setOnClickListener` or inside XML `android:onClick` then define a method to call the Intent Action
+
+![Final App](../images/w5d2%20-%204.png)
+

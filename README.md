@@ -320,12 +320,18 @@
 
 ####<a name="day52"></a>Day 2 - Object Oriented Programming #2 & Projects
 - Learning Objectives : 
-  - 
+  - Students understand how to make a Checkbox
+  - Students understand about boolean value
+  - Students able to use if-else statement
+  - Students able to use intents
 - Pre-reading:
 - Presentation:
   - [Object Oriented Programming #2](https://docs.google.com/presentation/d/1WjVCdU7NIBd16MdgVZWvoGEHSksJRaKVSE7q7J5mtQs/edit?usp=sharing)
 - Hands on Lab:
-  - []()
+  - [Ordering App #2 Part 1](https://github.com/makersinstitute/android-academy/blob/master/instructions/w5d2%20-%20Building%20an%20OOP%20Based%20App.md)
+  - [Ordering App #2 Part 2](https://github.com/makersinstitute/android-academy/blob/master/instructions/w5d2%20-%20Building%20an%20OOP%20Based%20App%20%232.md)
+- Projects:
+  - [Build a Quiz App](https://github.com/makersinstitute/android-academy/blob/master/projects/w5%20-%20Build%20a%20Quiz%20App.md)
 - Additional Material:
   - [Common Android Views Cheat Sheet](https://s3-us-west-1.amazonaws.com/udacity-content/PDFs/Common+Android+Views+Cheat+Sheet+(1).pdf)
   - [Android Vocabulary](https://developers.google.com/android/for-all/vocab-words/)

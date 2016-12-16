@@ -320,7 +320,12 @@
 
 ####<a name="day52"></a>Day 2 - Object Oriented Programming #2 & Projects
 - Learning Objectives : 
+  - 
 - Pre-reading:
 - Presentation:
+  - [Object Oriented Programming #2](https://docs.google.com/presentation/d/1WjVCdU7NIBd16MdgVZWvoGEHSksJRaKVSE7q7J5mtQs/edit?usp=sharing)
 - Hands on Lab:
+  - []()
 - Additional Material:
+  - [Common Android Views Cheat Sheet](https://s3-us-west-1.amazonaws.com/udacity-content/PDFs/Common+Android+Views+Cheat+Sheet+(1).pdf)
+  - [Android Vocabulary](https://developers.google.com/android/for-all/vocab-words/)

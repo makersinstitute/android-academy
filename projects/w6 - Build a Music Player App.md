@@ -39,5 +39,5 @@ For this project, you will be thinking deeply about the structure of an app and 
 
 ## Let's Get Started
 
-Click [here]()!
+Click [here](https://github.com/makersinstitute/android-academy/blob/master/instructions/w6d1%20-%20Music%20App.md)!
 	

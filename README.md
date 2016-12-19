@@ -335,3 +335,26 @@
 - Additional Material:
   - [Common Android Views Cheat Sheet](https://s3-us-west-1.amazonaws.com/udacity-content/PDFs/Common+Android+Views+Cheat+Sheet+(1).pdf)
   - [Android Vocabulary](https://developers.google.com/android/for-all/vocab-words/)
+
+
+## <a name="week6"></a>Week 6
+
+####<a name="day61"></a>Day 1 - Activity, Intents, and ListView + Project!
+- Learning Objectives : 
+  - Students understand about Object Oriented Programming
+  - Students able to define and call a method
+  - Students able to use return value
+  - Students able to access resource folder from code and XML
+  - Students able to inflate a layout and casting view
+  - Students understand about view hierarchy
+- Pre-reading:
+  - [Android - Activities](https://www.tutorialspoint.com/android/android_acitivities.htm)
+  - [Android Intent](http://www.vogella.com/tutorials/AndroidIntent/article.html)
+  - [Android ListView](http://www.vogella.com/tutorials/AndroidListView/article.html)
+  - [Play Audio](http://stackoverflow.com/a/3041855/5552518)
+- Presentation:
+  - [Multi Screen App](https://docs.google.com/presentation/d/18JrRyow_FCpBas0SBqWVd-TmWMZ18AM_izm6pqW-zx0/edit?usp=sharing)
+- Project:
+  - [Build a Music App](https://github.com/makersinstitute/android-academy/blob/master/projects/w6%20-%20Build%20a%20Music%20Player%20App.md)
+- Additional Material:
+  - [Music App Starter Code](https://github.com/makersinstitute/MusicApp)

@@ -73,8 +73,62 @@ If you are curious what `items.get(i).getName()` is, the `items` is an array of 
 
 #### 8. Receive the Information on The Target Class
 
-Here the example code, `String songName = getIntent().getStringExtra("song");`. First, declare the dataType, variableName, then get the `Intent` that has been sent from the previous `Activity`.
+Here the example code, `String songName = getIntent().getStringExtra("song");`. First, declare the dataType, variableName, then get the `Intent` that has been sent from the previous `Activity`. Then followed by `getStringExtra()` method, with the key name as its parameter.
 
-#### 9. Add the Audio Files to Project
-#### 10. Add the Audio Files to Project
-#### 11. Add the Audio Files to Project
+#### 9. Use the Received Extras to Somewhere
+
+For example, since we already declared the `findViewById`, now we just assign the string to the view, `songText.setText(songName);`
+
+#### 10. Set Click Listener if you Have a Button that Acts as a "Door" to another View/Class
+
+For example, 
+```
+playButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ViewAlbumActivity.this, NowPlayingActivity.class);
+                intent.putExtra("artist", artistName);
+                intent.putExtra("song", songName);
+                intent.putExtra("album", albumName);
+                startActivity(intent);
+            }
+        });
+```
+
+#### 11. Now Playing Screen!
+
+From the starter code, we have three songs, so at least we have three audio files. Then, how to make the now playing, plays a right song? We have to declare a conditional statement. You can use `if/else` or `switch/case`. For now, let's use `switch/case`. 
+
+But before we continue, in this page, we want to able to play the audio files. So we need to know how to do it. We will use `MediaPlayer` as the audio player. Declare this, `MediaPlayer mp;` . Inside that class, there are a lot of things, but we just use `start()`, `stop()`, and `pause()`. Just type `mp = MediaPlayer.create(NowPlayingActivity.this, R.raw.ujan);` then `mp.start();`. Voila, the audio files will be played.
+
+Back to the `switch/case`, to differentiate what should be played, we take the `songName` arguments as the switch. Then declare every possibilities. Don't forget to put the `switch/case` under `playButton`'s `clickListener`
+
+```
+switch (songName) {
+            case "Air Hujan":
+                playButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        mp = MediaPlayer.create(NowPlayingActivity.this, R.raw.ujan);
+                        mp.start();
+                    }
+                });
+                break;
+        .
+        .
+        . // another case should be added here
+```
+
+#### 12. Add another Click Listener for Pause and Stop
+
+```
+pauseButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mp.pause();
+            }
+        });
+```
+
+
+#### 13. Congratulations~

@@ -130,5 +130,18 @@ pauseButton.setOnClickListener(new View.OnClickListener() {
         });
 ```
 
+#### 13. Last One!
 
-#### 13. Congratulations~
+To let you able navigate back and forth, we edit some code inside the `AndroidManifest.xml` file. When you `Intent` to another class, then want to go back to the first location, we can just add another `Intent`, but here are some simple way.
+
+Add, `android:parentActivityName=".activity.MainActivity"` inside the activity brackets
+
+```
+<activity android:name=".activity.NowPlayingActivity"
+            android:parentActivityName=".activity.MainActivity"/>
+```
+
+You can have different `parentActivityName`, it all depends on you.
+
+
+#### 14. Congratulations~

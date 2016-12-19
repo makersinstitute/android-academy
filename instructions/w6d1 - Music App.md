@@ -43,11 +43,12 @@ Under the `res` folder, right-click, `New` -> `Android resource directory`. Choo
 #### 6. Done with the Extras, Let's Code
 
 Before we continue, make sure you have:
+
 1. Three fragment files with its XML files, named `fragment_xxx.xml`,
 2. Three model files,
 3. The `MainActivity` class with its XML files, named `activity_main.xml`,
-2. (At Least) Three new activity files with its XML files,
-3. Audio files inside `res/raw/`
+4. (At Least) Three new activity files with its XML files,
+5. Audio files inside `res/raw/`
 
 
 #### 7. Add an Intent for each Element on each Tabs

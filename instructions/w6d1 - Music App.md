@@ -96,6 +96,8 @@ playButton.setOnClickListener(new View.OnClickListener() {
         });
 ```
 
+You may notice that, the first `Intent` on Step 7, is `getActivity()` but on this Step, we are using `ClassName.this`. For now, tt's because at Step 7, we call it from a Fragment, but now, we call it from a Class.
+
 #### 11. Now Playing Screen!
 
 From the starter code, we have three songs, so at least we have three audio files. Then, how to make the now playing, plays a right song? We have to declare a conditional statement. You can use `if/else` or `switch/case`. For now, let's use `switch/case`. 

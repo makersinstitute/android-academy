@@ -83,7 +83,7 @@ For example, since we already declared the `findViewById`, now we just assign th
 #### 10. Set Click Listener if you Have a Button that Acts as a "Door" to another View/Class
 
 For example, 
-```
+```java
 playButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -104,7 +104,7 @@ But before we continue, in this page, we want to able to play the audio files. S
 
 Back to the `switch/case`, to differentiate what should be played, we take the `songName` arguments as the switch. Then declare every possibilities. Don't forget to put the `switch/case` under `playButton`'s `clickListener`
 
-```
+```java
 switch (songName) {
             case "Air Hujan":
                 playButton.setOnClickListener(new View.OnClickListener() {
@@ -122,7 +122,7 @@ switch (songName) {
 
 #### 12. Add another Click Listener for Pause and Stop
 
-```
+```java
 pauseButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -137,7 +137,7 @@ To let you able navigate back and forth, we edit some code inside the `AndroidMa
 
 Add, `android:parentActivityName=".activity.MainActivity"` inside the activity brackets
 
-```
+```java
 <activity android:name=".activity.NowPlayingActivity"
             android:parentActivityName=".activity.MainActivity"/>
 ```

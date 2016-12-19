@@ -341,12 +341,10 @@
 
 ####<a name="day61"></a>Day 1 - Activity, Intents, and ListView + Project!
 - Learning Objectives : 
-  - Students understand about Object Oriented Programming
-  - Students able to define and call a method
-  - Students able to use return value
-  - Students able to access resource folder from code and XML
-  - Students able to inflate a layout and casting view
-  - Students understand about view hierarchy
+  - Student understand about Intent
+  - Student understand about Activity
+  - Student know how to use ListView and it's adapter
+  - Student understand how to create multipe screen app
 - Pre-reading:
   - [Android - Activities](https://www.tutorialspoint.com/android/android_acitivities.htm)
   - [Android Intent](http://www.vogella.com/tutorials/AndroidIntent/article.html)

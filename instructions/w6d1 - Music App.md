@@ -109,7 +109,7 @@ switch (songName) {
                 playButton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        mp = MediaPlayer.create(NowPlayingActivity.this, R.raw.ujan);
+                        mp = MediaPlayer.create(NowPlayingActivity.this, R.raw.ujan); // create(whereToPlayTheAudio.class, theAudioFileLocation)
                         mp.start();
                     }
                 });

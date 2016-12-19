@@ -57,7 +57,7 @@ Here, you maybe don't understand what fragment is. For now, fragment is a part o
 
 Now, open the `SongFragment` class. We want to have a new page open by tapping the Song Name on the screen, so below `listView.setAdapter(mAdapter);` we add a `clickListener` like this
 
-```
+```java
 listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {

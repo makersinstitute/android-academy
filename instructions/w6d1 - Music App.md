@@ -22,7 +22,7 @@ As you can see, the app has three tabs, with name "By Songs", "By Artists", and 
 
 #### 2. Design a Proper Layout
 
-Once you create from a template, you will have a `Java Class` and  `XML files`. Design a good layout that represent what can be done on that screen. Just create a simle
+Once you create from a template, you will have a `Java Class` and  `XML files`. Design a good layout that represent what can be done on that screen. Just create a simple one.
 
 #### 3. Access Created Views on XML inside the Java Class file
 

@@ -356,3 +356,21 @@
   - [Build a Music App](https://github.com/makersinstitute/android-academy/blob/master/projects/w6%20-%20Build%20a%20Music%20Player%20App.md)
 - Additional Material:
   - [Music App Starter Code](https://github.com/makersinstitute/MusicApp)
+
+
+####<a name="day62"></a>Day 2 - ListView + Project!
+- Learning Objectives : 
+  - Student udnerstand about Array and ArrayList
+  - Student able to implement Loop Control
+  - Student know how to use ListView and it's adapter
+  - Student know how to create a Custom Adapter
+- Pre-reading:
+  - [Array vs ArrayList](http://javahungry.blogspot.com/2015/03/difference-between-array-and-arraylist-in-java-example.html)
+  - [Loop Control](https://www.tutorialspoint.com/java/java_loop_control.htm)
+  - [Android ListView](http://www.vogella.com/tutorials/AndroidListView/article.html)
+- Presentation:
+  - [ListView](https://docs.google.com/presentation/d/1O9keLtwUVkX1j4R4aDg7w_IElbfPxCy89w--5v4UboE/edit?usp=sharing)
+- Project:
+  - [Build a Music App](https://github.com/makersinstitute/android-academy/blob/master/projects/w6%20-%20Build%20a%20Music%20Player%20App.md)
+- Additional Material:
+  - [Music App Starter Code](https://github.com/makersinstitute/MusicApp)

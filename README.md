@@ -27,40 +27,40 @@
   * [Day 2 - Developing Interactive App Part 2](#day52)
   * [Day 3 - Project](#day53)
   
-* [Week 6 - Quiz App](#week6)
-  * [Day 1 - Object-Oriented Programming Part 1](#day61)
-  * [Day 2 - Object-Oriented Programming Part 2](#day62)
+* [Week 6 - Music Player App](#week6)
+  * [Day 1 - Activity, Intents, and ListView + Project!](#day61)
+  * [Day 2 - ListView + Project!](#day62)
   * [Day 3 - Project](#day63)
   
-* [Week 7 - Music Player App](#week7)
-  * [Day 1 - Intent and Activities Part 1](#day71)
-  * [Day 2 - Intent and Activities Part 2](#day72)
+* [Week 7 - Student Report App](#week7)
+  * [Day 1 - Fragments](#day71)
+  * [Day 2 - Adding Data to List](#day72)
   * [Day 3 - Project](#day73)
   
-* [Week 8 - Student Report App](#week8)
-  * [Day 1 - Data, Loops](#day81)
-  * [Day 2 - Custom Classes](#day82)
+* [Week 8 - Tour Guide App](#week8)
+  * [Day 1 - Images, visual polish](#day81)
+  * [Day 2 - Audio,Libraries,Fragment](#day82)
   * [Day 3 - Project](#day83)
   
-* [Week 9 - Tour Guide App](#week9)
-  * [Day 1 - Images, visual polish](#day91)
-  * [Day 2 - Audio,Libraries,Fragment](#day92)
+* [Week 9 - Library App](#week9)
+  * [Day 1 - JSON , HTTP Networking](#day91)
+  * [Day 2 - Threads , Parallelism](#day92)
   * [Day 3 - Project](#day93)
   
-* [Week 10 - Library App](#week10)
-  * [Day 1 - JSON , HTTP Networking](#day101)
-  * [Day 2 - Threads , Parallelism](#day102)
+* [Week 10 - News App](#week10)
+  * [Day 1 - Preferences Part 1](#day101)
+  * [Day 2 - Preferences Part 2](#day102)
   * [Day 3 - Project](#day103)
   
-* [Week 11 - News App](#week11)
-  * [Day 1 - Preferences Part 1](#day111)
-  * [Day 2 - Preferences Part 2](#day112)
+* [Week 11 - Fitness App](#week11)
+  * [Day 1 - Database in Android Part 1](#day111)
+  * [Day 2 - Database in Android Part 2](#day112)
   * [Day 3 - Project](#day113)
   
-* [Week 12 - Fitness App](#week12)
-  * [Day 1 - Database in Android Part 1](#day121)
-  * [Day 2 - Database in Android Part 2](#day122)
-  * [Day 3 - Project](#day123)
+* [Week 12 - ](#week12)
+  * [Day 1 - ](#day121)
+  * [Day 2 - ](#day122)
+  * [Day 3 - ](#day123)
   
 ## <a name="week1"></a>Week 1
 
@@ -374,3 +374,38 @@
   - [Build a Music App](https://github.com/makersinstitute/android-academy/blob/master/projects/w6%20-%20Build%20a%20Music%20Player%20App.md)
 - Additional Material:
   - [Music App Starter Code](https://github.com/makersinstitute/MusicApp)
+  
+
+## <a name="week7"></a>Week 7 Student Report App
+
+####<a name="day71"></a>Day 1 - Activity, Fragments, ViewPager
+- Learning Objectives : 
+  - Students know what is Activity
+  - Students know what is Fragments
+  - Students know what is ViewPager
+  - Students able to build a simple app using ViewPager and Fragments
+- Pre-reading:
+  - [Fragments](https://www.tutorialspoint.com/android/android_fragments.htm)
+  - [ViewPager](https://developer.android.com/reference/android/support/v4/view/ViewPager.html)
+  - [ViewPager Example](https://www.javacodegeeks.com/2013/04/android-tutorial-using-the-viewpager.html)
+  - [Creating Tabbed Activity](https://guides.codepath.com/android/ViewPager-with-FragmentPagerAdapter)
+- Presentation:
+  - [Activity and Fragment](https://docs.google.com/presentation/d/13LKdntu7L-GAczHeJXkHdBfx9lG25ih5rAnZGA191Cs/edit?usp=sharing)
+- Hands on Lab:
+  - [Fragment + ViewPager](https://docs.google.com/presentation/d/13LKdntu7L-GAczHeJXkHdBfx9lG25ih5rAnZGA191Cs/edit?usp=sharing)
+- Additional Material:
+  
+  ####<a name="day72"></a>Day 2 - Adding Data to List
+- Learning Objectives : 
+- Pre-reading:
+- Presentation:
+- Hands on lab:
+- Additional Material:
+
+####<a name="day73"></a>Day 3 - Project
+- Learning Objectives : 
+- Pre-reading:
+- Presentation:
+- Hands on lab:
+- Additional Material:
+ 

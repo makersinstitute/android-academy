@@ -407,6 +407,7 @@
 - Presentation:
   - [Retrieving and Saving Data](https://docs.google.com/presentation/d/1N4Ph4oiAbCpp3xetTQrW6UkCZjxcDzFJF3VSUeC1vsg/edit?usp=sharing)
 - Hands on lab:
+  - [My Profile App](https://github.com/makersinstitute/android-academy/blob/master/instructions/w7d2%20-%20My%20Profile%20App.md)
 - Additional Material:
 
 ####<a name="day73"></a>Day 3 - Project

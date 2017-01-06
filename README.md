@@ -395,10 +395,17 @@
   - [Fragment + ViewPager](https://docs.google.com/presentation/d/13LKdntu7L-GAczHeJXkHdBfx9lG25ih5rAnZGA191Cs/edit?usp=sharing)
 - Additional Material:
   
-  ####<a name="day72"></a>Day 2 - Adding Data to List
+  ####<a name="day72"></a>Day 2 - Retrieving and Saving Data
 - Learning Objectives : 
+  - Students understand how to sending and receiving data from other activity
+  - Students able to use Camera from Android Device
+  - Students able to create a persistent data using SharedPreference
 - Pre-reading:
+  - [Android Permission](http://www.hongkiat.com/blog/android-app-permissions/)
+  - [Key-Value Pair](http://www.dummies.com/programming/big-data/engineering/key-value-pair-databases-in-a-big-data-environment/)
+  - [Android Shared Preference](https://www.tutorialspoint.com/android/android_shared_preferences.htm)
 - Presentation:
+  - [Retrieving and Saving Data](https://docs.google.com/presentation/d/1N4Ph4oiAbCpp3xetTQrW6UkCZjxcDzFJF3VSUeC1vsg/edit?usp=sharing)
 - Hands on lab:
 - Additional Material:
 

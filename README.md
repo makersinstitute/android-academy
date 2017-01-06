@@ -392,7 +392,7 @@
 - Presentation:
   - [Activity and Fragment](https://docs.google.com/presentation/d/13LKdntu7L-GAczHeJXkHdBfx9lG25ih5rAnZGA191Cs/edit?usp=sharing)
 - Hands on Lab:
-  - [Fragment + ViewPager](https://docs.google.com/presentation/d/13LKdntu7L-GAczHeJXkHdBfx9lG25ih5rAnZGA191Cs/edit?usp=sharing)
+  - [Fragment + ViewPager](https://docs.google.com/presentation/d/1i4_Xy7TSqdKrAT8agLjCdSooOGCDFFYwe6txFNz62oA/edit?usp=sharing)
 - Additional Material:
   
   ####<a name="day72"></a>Day 2 - Retrieving and Saving Data

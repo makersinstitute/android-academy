@@ -181,4 +181,6 @@ public void setDescriptionText() {
     }
 ```
 
+*NB*: If you see that the `ListView` data is missing on every button click, it's ok, since we are not saving the `ListView` data.
+
 ## Congrats!

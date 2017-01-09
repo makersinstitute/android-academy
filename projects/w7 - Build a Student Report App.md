@@ -102,6 +102,47 @@ Here are some prefered order to build the app. If you are feeling stuck or confu
 	```
 
 4. Build a `Tabbed Activity` using `ViewPager` and containing two fragments.
+   - Create class `FragmentPagerAdapter` as a Fragment 'Holder' a.k.a `ViewPager`
+   ```java
+   public class ReportPagerAdapter extends FragmentPagerAdapter {
+
+    final int PAGE_COUNT = 2;
+    private String tabTitles[] = new String[] { "Profile", "My Report" };
+    private Context context;
+
+    public ReportPagerAdapter(FragmentManager fm, Context context) {
+        super(fm);
+        this.context = context;
+    }
+
+    @Override
+    public int getCount() {
+        return PAGE_COUNT;
+    }
+
+    @Override
+    public Fragment getItem(int position) {
+
+        switch (position) {
+            case 0:
+                ProfileFragment profileFragment = new ProfileFragment();
+                return profileFragment;
+            case 1:
+                SummaryFragment summaryFragment = new SummaryFragment();
+                return summaryFragment;
+            default:
+                return null;
+        }
+    }
+
+    @Override
+    public CharSequence getPageTitle(int position) {
+        // Generate title based on item position
+        return tabTitles[position];
+    }
+
+}
+   ```
 5. Layout the first fragment, which is your profile.
 6. Add taking picture function
 7. Hardcode your name and your institution/occupation

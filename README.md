@@ -412,8 +412,17 @@
 
 ####<a name="day73"></a>Day 3 - Project
 - Learning Objectives : 
+  - Create an app that contains
+      - Designing an object class
+      - Using `ListView`
+      - Create a Tabbed Activity using `ViewPager`
+      - Using `StartActivityForResult`
+      - Taking picture using camera
+      - `If/else` statement.
 - Pre-reading:
+
 - Presentation:
-- Hands on lab:
+- Project:
+  - [Build a Student Report App](https://github.com/makersinstitute/android-academy/blob/master/projects/w7%20-%20Build%20a%20Student%20Report%20App.md)
 - Additional Material:
  

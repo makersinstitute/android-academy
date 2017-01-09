@@ -27,78 +27,79 @@ Here are some prefered order to build the app. If you are feeling stuck or confu
 
 1. Create a new project
 2. Create a `Score` model
-```java
-public class Score {
 
-    String subjectName;
-    Double subjectScore;
+	```java
+	public class Score {
 
-    public Score(String subjectName, Double subjectScore) {
-        this.subjectName = subjectName;
-        this.subjectScore = subjectScore;
-    }
+	    String subjectName;
+	    Double subjectScore;
 
-    public String getSubjectName() {
-        return subjectName;
-    }
+	    public Score(String subjectName, Double subjectScore) {
+		this.subjectName = subjectName;
+		this.subjectScore = subjectScore;
+	    }
 
-    public void setSubjectName(String subjectName) {
-        this.subjectName = subjectName;
-    }
+	    public String getSubjectName() {
+		return subjectName;
+	    }
 
-    public Double getSubjectScore() {
-        return subjectScore;
-    }
+	    public void setSubjectName(String subjectName) {
+		this.subjectName = subjectName;
+	    }
 
-    public void setSubjectScore(Double subjectScore) {
-        this.subjectScore = subjectScore;
-    }
-}
-```
+	    public Double getSubjectScore() {
+		return subjectScore;
+	    }
+
+	    public void setSubjectScore(Double subjectScore) {
+		this.subjectScore = subjectScore;
+	    }
+	}
+	```
 3. Create a `ScoreAdapter` also the custom item view containing two text view side by side for showing you report details.
-```java
-public class ScoreAdapter extends ArrayAdapter<Score> {
+	```java
+	public class ScoreAdapter extends ArrayAdapter<Score> {
 
-    public ScoreAdapter(Context context, List<Score> scoreList) {
-            super(context, R.layout.score_item, scoreList);
-    }
+	    public ScoreAdapter(Context context, List<Score> scoreList) {
+		    super(context, R.layout.score_item, scoreList);
+	    }
 
-    public static class ViewHolder{
-        TextView subjectName;
-        TextView subjectScore;
-    }
+	    public static class ViewHolder{
+		TextView subjectName;
+		TextView subjectScore;
+	    }
 
-    @NonNull
-    @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
-        //get the data item for this position
-        Score score = getItem(position);
-        ViewHolder viewHolder;
+	    @NonNull
+	    @Override
+	    public View getView(int position, View convertView, ViewGroup parent) {
+		//get the data item for this position
+		Score score = getItem(position);
+		ViewHolder viewHolder;
 
-        // Check if an existing view is being reused, otherwise inflate the view
-        if(convertView == null){
-            
-            // if there is no view created
-            // create new view
-            convertView = LayoutInflater.from(getContext()).inflate(R.layout.score_item,null);
-            viewHolder = new ViewHolder();
-            viewHolder.subjectName = (TextView)convertView.findViewById(R.id.text_view_subject_name);
-            viewHolder.subjectScore = (TextView)convertView.findViewById(R.id.text_view_subject_score);
-            convertView.setTag(viewHolder);
-        } else {
-            viewHolder = (ViewHolder)convertView.getTag();
-        }
+		// Check if an existing view is being reused, otherwise inflate the view
+		if(convertView == null){
 
-        //set Text
-        viewHolder.subjectName.setText(score.getSubjectName());
-        viewHolder.subjectScore.setText(score.getSubjectScore().toString());
+		    // if there is no view created
+		    // create new view
+		    convertView = LayoutInflater.from(getContext()).inflate(R.layout.score_item,null);
+		    viewHolder = new ViewHolder();
+		    viewHolder.subjectName = (TextView)convertView.findViewById(R.id.text_view_subject_name);
+		    viewHolder.subjectScore = (TextView)convertView.findViewById(R.id.text_view_subject_score);
+		    convertView.setTag(viewHolder);
+		} else {
+		    viewHolder = (ViewHolder)convertView.getTag();
+		}
 
-        //retun view of item
-        return convertView;
-    }
+		//set Text
+		viewHolder.subjectName.setText(score.getSubjectName());
+		viewHolder.subjectScore.setText(score.getSubjectScore().toString());
 
-}
-```
+		//retun view of item
+		return convertView;
+	    }
+
+	}
+	```
 
 4. Build a `Tabbed Activity` using `ViewPager` and containing two fragments.
 5. Layout the first fragment, which is your profile.
@@ -120,66 +121,67 @@ public class ScoreAdapter extends ArrayAdapter<Score> {
 	- Make sure you check the `requestCode` and the `resultCode`
 	- Add the data to array list
 
-```java
-ArrayList<Score> scoreArrayList; // global variable
+	```java
+	ArrayList<Score> scoreArrayList; // global variable
 
-// some code...
+	// some code...
 
-// inside onCreate()
-scoreArrayList = new ArrayList<Score>();
+	// inside onCreate()
+	scoreArrayList = new ArrayList<Score>();
 
-// inside onActivityResult()
-addedSubject = data.getStringExtra("subjectName");
-addedScore = data.getDoubleExtra("subjectScore", 0.00);
+	// inside onActivityResult()
+	addedSubject = data.getStringExtra("subjectName");
+	addedScore = data.getDoubleExtra("subjectScore", 0.00);
 
-scoreArrayList.add(new Score(addedSubject, addedScore));
-scoreAdapter.notifyDataSetChanged(); // to refresh the ListView that there is a new data
-```
+	scoreArrayList.add(new Score(addedSubject, addedScore));
+	scoreAdapter.notifyDataSetChanged(); // to refresh the ListView that there is a new data
+	```
+	
 13. When the ListView is showing every input you just made, create a function to count the average.
 	- Save the average number into SharedPreference
-```java
-public void countAverage() {
+	```java
+	public void countAverage() {
 
-        Double sumScore = 0.0;
-        averageScore = 0.0;
-        for (int i = 0; i < scoreArrayList.size(); i++) {
-            sumScore += scoreArrayList.get(i).getSubjectScore();
-        }
+		Double sumScore = 0.0;
+		averageScore = 0.0;
+		for (int i = 0; i < scoreArrayList.size(); i++) {
+		    sumScore += scoreArrayList.get(i).getSubjectScore();
+		}
 
-        averageScore = sumScore / (double) scoreArrayList.size();
+		averageScore = sumScore / (double) scoreArrayList.size();
 
-        editor.putLong("averageScore", Double.doubleToLongBits(averageScore)); // because SharedPreference can't hold a Double, so we convert it into Long first
-        editor.apply();
+		editor.putLong("averageScore", Double.doubleToLongBits(averageScore)); // because SharedPreference can't hold a Double, so we convert it into Long first
+		editor.apply();
 
-    }
-```
+	    }
+	```
 
 14. Back to the second fragment, the report summary, get the average number from SharedPreference.
 
-```java
-public void getAverageScore() {
+	```java
+	public void getAverageScore() {
 
-        averageScore = Double.longBitsToDouble(sp.getLong("averageScore", defaultValue));
-        averageScoreText.setText(averageScore.toString());
+		averageScore = Double.longBitsToDouble(sp.getLong("averageScore", defaultValue));
+		averageScoreText.setText(averageScore.toString());
 
-    }
-```
+	    }
+	```
 
 15. Now, process the average number, using if/else statement. If the score is below something, the description will be something, and else.
 
-```java
-public void setDescriptionText() {
+	```java
+	public void setDescriptionText() {
 
-        if (averageScore < 50) {
+		if (averageScore < 50) {
 
-            scoreDescriptionText.setText("E");
+		    scoreDescriptionText.setText("E");
 
-        } else if ... {
+		} else if ... {
 
-        }
+		}
 
-    }
-```
+	    }
+	```
 
 *NB*: If you see that the `ListView` data is missing on every button click, it's ok, since we are not saving the `ListView` data.
 

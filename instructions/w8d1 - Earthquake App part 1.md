@@ -18,7 +18,7 @@ Once that app has successfully imported, run the app on your Android device (pho
 
 ### <a name="lab12"></a>2. Show More Info On Each Earthquake
 
- <img src="../images/w8d1%20-%202.png" width="250">
+<img src="../images/w8d1%20-%202.PNG" width="250">
 
 1. Create XML layout for single list item that contains three TextView. 
 

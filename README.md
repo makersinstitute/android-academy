@@ -426,3 +426,15 @@
   - [Build a Student Report App](https://github.com/makersinstitute/android-academy/blob/master/projects/w7%20-%20Build%20a%20Student%20Report%20App.md)
 - Additional Material:
  
+ ## <a name="week8"></a>Week 8 Student Report App
+
+####<a name="day81"></a>Day 1 - API and JSON
+- Learning Objectives : 
+  - Students know what is API
+  - Students know what is JSON
+- Pre-reading : 
+- Presentation:
+  - [API and JSON](https://docs.google.com/presentation/d/1llFaRN94GeuFO2R3SYOps3c_5VjZYZt_rPp2Y2pZkAs/edit?usp=sharing)
+- Hands on Lab:
+  - [Earthquake App part 1](https://docs.google.com/presentation/d/1i4_Xy7TSqdKrAT8agLjCdSooOGCDFFYwe6txFNz62oA/edit?usp=sharing)
+- Additional Material:

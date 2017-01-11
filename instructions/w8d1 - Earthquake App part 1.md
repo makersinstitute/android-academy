@@ -587,6 +587,8 @@ Split location into a location offset (“74km NW of “) and a primary location
 
 ### <a name="lab16"></a>7. Circle Background for Magnitude
 
+<img src="../images/w8d1%20-%205.png" width="250">
+
 1. Add Color resource 
 
     ```

@@ -427,13 +427,17 @@
 - Additional Material:
  
  
-## <a name="week8"></a>Week 8 Student Report App
+## <a name="week8"></a>Week 8 Library App
 
 ####<a name="day81"></a>Day 1 - API and JSON
 - Learning Objectives : 
   - Students know what is API
   - Students know what is JSON
 - Pre-reading : 
+  - [RESTful-API](http://searchcloudstorage.techtarget.com/definition/RESTful-API)
+  - [String Manipulation](https://docs.oracle.com/javase/tutorial/java/data/manipstrings.html)
+  - [String](https://www.tutorialspoint.com/java/java_strings.htm)
+  - [JSON](http://www.json.org/)
 - Presentation:
   - [API and JSON](https://docs.google.com/presentation/d/1llFaRN94GeuFO2R3SYOps3c_5VjZYZt_rPp2Y2pZkAs/edit?usp=sharing)
 - Hands on Lab:

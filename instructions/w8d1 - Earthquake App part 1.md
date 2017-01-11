@@ -12,9 +12,13 @@
 - It may take some time for the project to be imported. If you have any issues, check the Troubleshooting document.
 Once that app has successfully imported, run the app on your Android device (phone, tablet, or emulator). It should look like this screenshot.
 
+   <img src="../images/w8d1%20-%201.png" width="250">
+
 ---
 
 ### <a name="lab12"></a>2. Show More Info On Each Earthquake
+
+ <img src="../images/w8d1%20-%202.png" width="250">
 
 1. Create XML layout for single list item that contains three TextView. 
 
@@ -219,6 +223,8 @@ Here’s some pseudocode of what needs to be done:
 
 ### <a name="lab14"></a>4. Display Date and Time Of Earthquake
 
+ <img src="../images/w8d1%20-%203.png" width="250">
+
 1. Add color item to color.xml
 
     ```
@@ -386,6 +392,8 @@ Here’s some pseudocode of what needs to be done:
 ---
 
 ### <a name="lab15"></a>5. Split Location Into Two Textviews
+
+ <img src="../images/w8d1%20-%204.png" width="250">
 
 Split location into a location offset (“74km NW of “) and a primary location (“Rumoi, Japan”) and display the 2 Strings in 2 separate TextViews.
 

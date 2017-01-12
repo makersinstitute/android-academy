@@ -4,11 +4,11 @@
 
 ### <a name="lab11"></a>1. Import Existing Project
 
-- Go to this [GitHub project repository link](https://github.com/udacity/ud843-QuakeReport)
+- Go to this [GitHub project repository link](https://github.com/makersinstitute/EarthQuackerApp)
 - Click on the “Download zip” button to download the app code.
-- Unzip the downloaded file on your computer so that you have a “Quake Report” folder.
+- Unzip the downloaded file on your computer so that you have a “EarthQuackerApp” folder.
 - Open Android Studio.
-- Choose File > Import Project and select the “Quake Report” folder. 
+- Choose File > Import Project and select the “EarthQuackerApp” folder. 
 - It may take some time for the project to be imported. If you have any issues, check the Troubleshooting document.
 Once that app has successfully imported, run the app on your Android device (phone, tablet, or emulator). It should look like this screenshot.
 

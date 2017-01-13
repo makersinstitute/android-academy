@@ -462,7 +462,7 @@
   - [Earthquake App part 2](https://github.com/makersinstitute/android-academy/blob/master/instructions/w8d2%20-%20EarthQuake%20App(2).md)
 - Additional Material:
   - [Learning to Fetch Data](https://developer.android.com/training/basics/network-ops/connecting.html)
-  - [Best Practice](https://developer.android.com/training/articles/user-data-permissions.html)
-  - [Normal Permission](https://developer.android.com/guide/topics/permissions/normal-permissions.html)
-  - [Dangerous Permission](https://developer.android.com/reference/android/Manifest.permission.html)
+  - [Best Practice App Permission](https://developer.android.com/training/articles/user-data-permissions.html)
+  - [Normal App Permission](https://developer.android.com/guide/topics/permissions/normal-permissions.html)
+  - [Dangerous App Permission](https://developer.android.com/reference/android/Manifest.permission.html)
 

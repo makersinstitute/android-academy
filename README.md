@@ -446,10 +446,19 @@
 
 ####<a name="day82"></a>Day 2 - HTTP Request and Asyntask
 - Learning Objectives : 
-  
+  - Students Learn About Networking
+  - Students learn about Android Permission
+  - Students learn about HTTP Request
+  - Students learn about thread
+  - Students learn about Async Task
 - Pre-reading : 
+  - [Working with URL](https://docs.oracle.com/javase/tutorial/networking/urls/?utm_source=udacity&utm_medium=course&utm_campaign=android_basics)
+  - [HTTP Request](http://www.tutorialspoint.com/http/http_requests)
   
 - Presentation : 
+  - [Networking #2](https://docs.google.com/presentation/d/10Ni0HX7deIUGmvdoAfEHi1MbkTlMvop67CuDwwa_Usg/edit?usp=sharing)
+  - [Networking #3](https://docs.google.com/presentation/d/1UCENdU5Od_YxaHPklqvxod2_gWkMml-ghAP1v9X4RxY/edit?usp=sharing)
 - Hands on Lab:
   - [Earthquake App part 2](https://github.com/makersinstitute/android-academy/blob/master/instructions/w8d2%20-%20EarthQuake%20App(2).md)
 - Additional Material:
+  - [Learning to Fetch Data](https://developer.android.com/training/basics/network-ops/connecting.html)

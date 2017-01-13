@@ -443,3 +443,13 @@
 - Hands on Lab:
   - [Earthquake App part 1](https://github.com/makersinstitute/android-academy/blob/master/instructions/w8d1%20-%20Earthquake%20App%20part%201.md)
 - Additional Material:
+
+####<a name="day82"></a>Day 2 - HTTP Request and Asyntask
+- Learning Objectives : 
+  
+- Pre-reading : 
+  
+- Presentation : 
+- Hands on Lab:
+  - [Earthquake App part 2](https://github.com/makersinstitute/android-academy/blob/master/instructions/w8d2%20-%20EarthQuake%20App(2).md)
+- Additional Material:

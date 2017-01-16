@@ -110,5 +110,93 @@ Here are some prefered order to build the app. If you are feeling stuck or confu
             bookAdapter = new BookAdapter(MainActivity.this, bookList);
             listView.setAdapter(bookAdapter);
             ```
+            
+       5. Next, we declare the `private URL createUrl(String stringUrl) {}` method, for creating URL from String
+       		```java
+        	URL url = null;
+        	try {
+       			url = new URL(stringUrl);
+        	} catch (MalformedURLException exception) {
+                Log.e("MainActivity", "Error with creating URL", exception);
+                return null;
+        	}
+            
+        	    return url;
+            ```
+        6. After that, we declare the request method, `private String makeHttpRequest(URL url) throws IOException {}` Try to ***discuss*** everyline of code with your friend, and make sure you understand, Google it if needed.
+           
+           ```java
+            String jsonResponse = "";
+            HttpURLConnection urlConnection = null;
+            InputStream inputStream = null;
+
+            try {
+                urlConnection = (HttpURLConnection) url.openConnection();
+                urlConnection.setRequestMethod("GET");
+                urlConnection.setReadTimeout(10000 /* milliseconds */);
+                urlConnection.setConnectTimeout(15000 /* milliseconds */);
+                urlConnection.connect();
+                if (urlConnection.getResponseCode() == 200) {
+                    inputStream = urlConnection.getInputStream();
+                    jsonResponse = readFromStream(inputStream); // read the response data and make it as a single string
+                }
+                else {
+                    Log.e("MainActivity", "Error response code: " + urlConnection.getResponseCode());
+                }
+            } catch (IOException e) {
+                Log.e("MainActivity", "Problem retrieving the book JSON results.", e);
+            } finally {
+                if (urlConnection != null) {
+                    urlConnection.disconnect();
+                }
+                if (inputStream != null) {
+                    // function must handle java.io.IOException here
+                    inputStream.close();
+                }
+            }
+
+            return jsonResponse;
+           ```
+           
+        7. As listed in `makeHttpRequest()`, we have `readFromStream()`, so we declare anything inside it here, we build a string from everyline of response
+        	```java
+            StringBuilder output = new StringBuilder();
+
+            if (inputStream != null) {
+                InputStreamReader inputStreamReader = new InputStreamReader(inputStream, Charset.forName("UTF-8"));
+                BufferedReader reader = new BufferedReader(inputStreamReader);
+                String line = reader.readLine();
+                while (line != null) {
+                    output.append(line);
+                    line = reader.readLine();
+                }
+            }
+
+            return output.toString();
+            ```
+        8. As listed in `doInBackground`, we have `extractBookInfoFromJson(String bookJSON)`, so we declare anything inside it here,
+        	1. First we check the input parameter, is it empty or not
+				```java
+            	if(TextUtils.isEmpty(bookJSON)) {
+            	   return null;
+        		}
+            	```
+            2.  Then since the `extractBookInfoFromJson()` will return a `ArrayList<Book>`, we declare a new book variable `ArrayList<Book> books = new ArrayList<Book>();`
+            3.  Next, we try to parse the String input of this method, the `bookJSON` inside a `try/catch`. Now we `try` to parse `bookJSON`
+
+				First, cast it into `JSONObject` and check  the `"totalItems"` key inside that `JSON`
+            	```java
+            	JSONObject baseJsonResponse = new JSONObject(bookJSON);
+                if(baseJsonResponse.getInt("totalItems") == 0) {
+                    runOnUiThread(new Runnable() {
+                        public void run() {
+                            Toast.makeText(MainActivity.this, "Result not found.", Toast.LENGTH_SHORT).show();
+                        }
+                    });
+
+                    return null;
+                }
+            	```
+       		
 
 ## Congrats!

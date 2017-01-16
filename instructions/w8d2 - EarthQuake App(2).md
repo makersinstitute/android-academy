@@ -195,12 +195,12 @@ Modify the app so that clicking on a list item goes to detailed webpage about th
     ```
 
 
-3. Change extraEartquake method that accepts a single parameter and parsing JSON dari parameter
+3. Change extractEarthquakes() method that accepts a single parameter and parsing JSON from parameter
     ```
     
     ...
     //metthod untuk mengkonvert data json dari USGS menjadi list
-    public static ArrayList<EarthQuake> extraEartquake(String responseJson){
+    public static ArrayList<EarthQuake> extractEarthquakes(String responseJson){
 
         //membuat arraylist kosong
         ArrayList<EarthQuake> earthQuakes = new ArrayList<>();

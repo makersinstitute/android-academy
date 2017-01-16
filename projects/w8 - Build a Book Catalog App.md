@@ -184,7 +184,7 @@ Here are some prefered order to build the app. If you are feeling stuck or confu
             2.  Then since the `extractBookInfoFromJson()` will return a `ArrayList<Book>`, we declare a new book variable `ArrayList<Book> books = new ArrayList<Book>();`
             3.  Next, we try to parse the String input of this method, the `bookJSON` inside a `try/catch`. Now we `try` to parse `bookJSON`
 
-				First, cast it into `JSONObject` and check  the `"totalItems"` key inside that `JSON`
+				**First**, cast it into `JSONObject` and check  the `"totalItems"` key inside that `JSON`. If the item is zero, then there is no book matched our keyword.
             	```java
             	JSONObject baseJsonResponse = new JSONObject(bookJSON);
                 if(baseJsonResponse.getInt("totalItems") == 0) {
@@ -197,6 +197,67 @@ Here are some prefered order to build the app. If you are feeling stuck or confu
                     return null;
                 }
             	```
-       		
+                
+                **Second**, we cast the `JSONObject` into a `JSONArray`. ***Please Google it if you don't know what's the different between the two*** .
+       		`JSONArray itemArray = baseJsonResponse.getJSONArray("items");`
+            
+            	**Third**, using `for/loop`, we iterate through the `itemArray` to get the needed information. Before that, try to see the response data using browser, to see the `key` name. For example, we have *"makers"* as the keyword, so the final URL will be like, `"https://www.googleapis.com/books/v1/volumes?q=makers"`. Open that on your browser. If you can't see the pattern, try to `beautify` the JSON, using [this](http://codebeautify.org/jsonviewer), or [this](https://jsonformatter.curiousconcept.com/)
 
+				**Fourth**, inside a `for/loop`, like this `for (int i = 0; i< itemArray.length(); i++) {}`, we will parse the `JSON` to get specific information
+                ```java
+                // Extract out the cuurent item (which is a book)
+                JSONObject cuurentItem = itemArray.getJSONObject(i);
+                JSONObject bookInfo = cuurentItem.getJSONObject("volumeInfo");
+                ```
+                
+                ```java
+                // Get the book title
+                String title = bookInfo.getString("title");
+                ```
+                
+                ```java
+                // Get the list of book's author(s)
+                String [] authors = new String[]{};
+                JSONArray authorJsonArray = bookInfo.optJSONArray("authors");
+                if(authorJsonArray!= null) {
+                    ArrayList<String> authorList = new ArrayList<String>();
+                    for (int j = 0; j < authorJsonArray.length(); j++) {
+                        authorList.add(authorJsonArray.get(j).toString());
+                    }
+                    authors = authorList.toArray(new String[authorList.size()]);
+                }
+                ```
+                
+                ```java
+                // Get the book's description
+                String description = "";
+                if(bookInfo.optString("description")!=null)
+                    description = bookInfo.optString("description");
+                ```
+                
+                ```java
+                // (Optional) get the link to the book
+                String infoLink = "";
+                if(bookInfo.optString("infoLink")!=null)
+                    infoLink = bookInfo.optString("infoLink");
+                ```
+                
+                ```java
+                // Add book information info into books array
+                books.add(new Book(title, authors, description, infoLink));
+                ```
+                
+                **Sixth**, inside the `catch`, we catch the possible error
+                ```java
+                catch (JSONException e) {
+                    Log.e("MainActivity", "Problem parsing the book JSON results", e);
+            	}
+                ```
+                
+                **Finally**, return the `books` since this method required you to return an `ArrayList<Book>` and the `books`'s type is `ArrayList<Book>`
+                ```java
+                return books;
+                ```
+                
+                
 ## Congrats!

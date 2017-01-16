@@ -41,14 +41,19 @@ Here are some prefered order to build the app. If you are feeling stuck or confu
 	3. Inside `onCreate` method
 		1. We connect the view with the code using `findViewById`
 		2. (Optional) we declare a `ProgressDialog`, so the screen will have a loading view when we request the data from API server.
-		3.  Add `ClickListener` for search button. First, show the loading view, then call the request method. We use the `AsyncTask` here.
+		3.  Add `ClickListener` for search button. First, *show the loading view*, then call the request method. We use the `AsyncTask` here.
 			```java
             BookAsyncTask task = new BookAsyncTask();
             task.execute();
             ```
      4. Next, we declared another class, as we called in previous code Snippet. Here is the code to request the data from API server.
      	`private class BookAsyncTask extends AsyncTask<URL, Void, ArrayList<Book>> {}`
-     	1. First, we override the `doInBackground` method to fullfil what we need. So we add another thing personalized, first we check the `EditText` if it's empty or not. If it is empty, we show the user that the `EditText` as the search keyword, can not be empty.
+     	1. First, we override the `doInBackground` method to fullfil what we need. 
+     		```java
+            @Override
+        	protected ArrayList<Book> doInBackground(URL... urls) {}
+            ```
+           So we add another thing personalized, first we check the `EditText` if it's empty or not. If it is empty, we show the user that the `EditText` as the search keyword, can not be empty.
      		```java
             private String searchKeyword = keywordText.getText().toString();
             if(searchKeyword.length() == 0) {
@@ -69,7 +74,7 @@ Here are some prefered order to build the app. If you are feeling stuck or confu
         
         	After replacing the space, we create a full-form of the URL, using string concatenation'
             
-            `URL url = createUrl(BOOK_REQUEST_URL + searchKeyword);`
+            `URL url = createUrl(BOOK_REQUEST_URL + searchKeyword); \\ method declared later`
             
             Then, we try to request data from the API server,
             
@@ -88,6 +93,22 @@ Here are some prefered order to build the app. If you are feeling stuck or confu
 
             return books;
             ```
-         2. 
+         2. After we have the return value from `doInBackground` which is a `ArrayList<Book>`, we process it inside the `onPostExecute`. We override it then update the `ListView` to show the response data. 
+         	```java
+            @Override
+        	protected void onPostExecute(ArrayList<Book> bookList) {}
+            ```
+         	Before that, *dismiss the loading view*. Make sure to check the `bookList`, if its empty, then update `ListView` with empty data, if not, show the `bookList`
+         	```java
+            if (bookList == null) {
+                bookAdapter = new BookAdapter(MainActivity.this, new ArrayList<Book>());
+                listView.setAdapter(bookAdapter);
+
+                return;
+            }
+
+            bookAdapter = new BookAdapter(MainActivity.this, bookList);
+            listView.setAdapter(bookAdapter);
+            ```
 
 ## Congrats!

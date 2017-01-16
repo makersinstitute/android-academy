@@ -46,6 +46,48 @@ Here are some prefered order to build the app. If you are feeling stuck or confu
             BookAsyncTask task = new BookAsyncTask();
             task.execute();
             ```
-     4. 
+     4. Next, we declared another class, as we called in previous code Snippet. Here is the code to request the data from API server.
+     	`private class BookAsyncTask extends AsyncTask<URL, Void, ArrayList<Book>> {}`
+     	1. First, we override the `doInBackground` method to fullfil what we need. So we add another thing personalized, first we check the `EditText` if it's empty or not. If it is empty, we show the user that the `EditText` as the search keyword, can not be empty.
+     		```java
+            private String searchKeyword = keywordText.getText().toString();
+            if(searchKeyword.length() == 0) {
+
+                runOnUiThread(new Runnable() {
+                    public void run() {
+                        Toast.makeText(MainActivity.this, "Keywords can not be empty", Toast.LENGTH_SHORT).show();
+                    }
+                });
+
+                return null;
+            }
+            ```
+            
+            Then, if its not empty, we will process the data text inside that. Since we are going to add this keyword into a URL, we will replace the space (" ") with a plus ("+"). (Take a look at [here](http://stackoverflow.com/questions/1634271/url-encoding-the-space-character-or-20))
+            
+            `searchKeyword = searchKeyword.replace(" ", "+");`
+        
+        	After replacing the space, we create a full-form of the URL, using string concatenation'
+            
+            `URL url = createUrl(BOOK_REQUEST_URL + searchKeyword);`
+            
+            Then, we try to request data from the API server,
+            
+            ```java
+            String jsonResponse = "";
+            try {
+                jsonResponse = makeHttpRequest(url); // the function will be declared later. `makeHttpRequest()` return String formated JSON.
+            } catch (IOException e) {
+                Log.e("MainActivity", "IOException", e); // if error happened, we log the error
+            }
+            ```
+            
+            Finally, we process the response to convert it into an `ArrayList<Book>` and return the converted data
+            ```java
+            ArrayList<Book> books = extractBookInfoFromJson(jsonResponse); // method declared later
+
+            return books;
+            ```
+         2. 
 
 ## Congrats!

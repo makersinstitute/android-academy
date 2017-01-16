@@ -195,7 +195,7 @@ Modify the app so that clicking on a list item goes to detailed webpage about th
     ```
 
 
-3. Change extractEarthquakes() method that accepts a single parameter and parsing JSON dari parameter
+3. Change extractEarthquakes() method that accepts a single parameter and parsing JSON from parameter
     ```
     
     ...

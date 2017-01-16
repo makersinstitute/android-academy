@@ -465,4 +465,19 @@
   - [Best Practice App Permission](https://developer.android.com/training/articles/user-data-permissions.html)
   - [Normal App Permission](https://developer.android.com/guide/topics/permissions/normal-permissions.html)
   - [Dangerous App Permission](https://developer.android.com/reference/android/Manifest.permission.html)
+  
+  ####<a name="day82"></a>Day 3 - Projects
+- Learning Objectives : 
+  - Fetching data from an API
+  - Using an AsyncTask
+  - Parsing a JSON response
+  - Creating a list based on that data and displaying it to the user.
+- Pre-reading : 
+- Presentation : 
+- Projects:
+  - [Book Catalog App](https://github.com/makersinstitute/android-academy/blob/master/projects/w8%20-%20Build%20a%20Book%20Catalog%20App.md)
+- Additional Material:
+  
+
+
 

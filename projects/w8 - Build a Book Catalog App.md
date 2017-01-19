@@ -52,74 +52,74 @@ Here are some prefered order to build the app. If you are feeling stuck or confu
      		
 		1. First, we override the `doInBackground` method to fullfil what we need. 
      		
-		```java
-		@Override
-		protected ArrayList<Book> doInBackground(URL... urls) {}
-		```
+			```java
+			@Override
+			protected ArrayList<Book> doInBackground(URL... urls) {}
+			```
 		
 		So we add another thing personalized, first we check the `EditText` if it's empty or not. If it is empty, we show the user that the `EditText` as the search keyword, can not be empty.
      		
-		```java
-		private String searchKeyword = keywordText.getText().toString();
-		if(searchKeyword.length() == 0) {
-		
-			runOnUiThread(new Runnable() {
-				public void run() {
-					Toast.makeText(MainActivity.this, "Keywords can not be empty", Toast.LENGTH_SHORT).show();
-				}
-			});
-			
-                	return null;
-		}
-		```
+			```java
+			private String searchKeyword = keywordText.getText().toString();
+			if(searchKeyword.length() == 0) {
+
+				runOnUiThread(new Runnable() {
+					public void run() {
+						Toast.makeText(MainActivity.this, "Keywords can not be empty", Toast.LENGTH_SHORT).show();
+					}
+				});
+
+				return null;
+			}
+			```
             	
 		Then, if its not empty, we will process the data text inside that. Since we are going to add this keyword into a URL, we will replace the space (" ") with a plus ("+"). (Take a look at [here](http://stackoverflow.com/questions/1634271/url-encoding-the-space-character-or-20))
             
-            	`searchKeyword = searchKeyword.replace(" ", "+");`
+            		`searchKeyword = searchKeyword.replace(" ", "+");`
 
 		After replacing the space, we create a full-form of the URL, using string concatenation'
             
-            	`URL url = createUrl(BOOK_REQUEST_URL + searchKeyword); \\ method declared later`
+            		`URL url = createUrl(BOOK_REQUEST_URL + searchKeyword); \\ method declared later`
 		
 		Then, we try to request data from the API server,
             
-            	```java
-         	   String jsonResponse = "";
-         	   try {
-         	       jsonResponse = makeHttpRequest(url); // the function will be declared later. `makeHttpRequest()` return String formated JSON.
-         	   } catch (IOException e) {
-         	       Log.e("MainActivity", "IOException", e); // if error happened, we log the error
-         	   }
-            	```
+			```java
+			   String jsonResponse = "";
+			   try {
+			       jsonResponse = makeHttpRequest(url); // the function will be declared later. `makeHttpRequest()` return String formated JSON.
+			   } catch (IOException e) {
+			       Log.e("MainActivity", "IOException", e); // if error happened, we log the error
+			   }
+			```
 		
 		Finally, we process the response to convert it into an `ArrayList<Book>` and return the converted data
            
-		    ```java
-		    ArrayList<Book> books = extractBookInfoFromJson(jsonResponse); // method declared later
-
-		    return books;
-		    ```
+			```java
+			ArrayList<Book> books = extractBookInfoFromJson(jsonResponse); // method declared later
+	
+			return books;
+			```
 	    
 		2. After we have the return value from `doInBackground` which is a `ArrayList<Book>`, we process it inside the `onPostExecute`. We override it then update the `ListView` to show the response data. 
 		
-		```java
-		@Override
-		protected void onPostExecute(ArrayList<Book> bookList) {}
-		```
+			```java
+			@Override
+			protected void onPostExecute(ArrayList<Book> bookList) {}
+			```
 		
 		Before that, *dismiss the loading view*. Make sure to check the `bookList`, if its empty, then update `ListView` with empty data, if not, show the `bookList`
 			
-		```java
-		    if (bookList == null) {
-			bookAdapter = new BookAdapter(MainActivity.this, new ArrayList<Book>());
-			listView.setAdapter(bookAdapter);
+			```java
+			    if (bookList == null) {
+				bookAdapter = new BookAdapter(MainActivity.this, new ArrayList<Book>());
+				listView.setAdapter(bookAdapter);
 
-			return;
-		    }
+				return;
+			    }
 
-		    bookAdapter = new BookAdapter(MainActivity.this, bookList);
-		    listView.setAdapter(bookAdapter);
-		```
+			    bookAdapter = new BookAdapter(MainActivity.this, bookList);
+			    listView.setAdapter(bookAdapter);
+			```
             
        5. Next, we declare the `private URL createUrl(String stringUrl) {}` method, for creating URL from String
        		
@@ -137,55 +137,54 @@ Here are some prefered order to build the app. If you are feeling stuck or confu
 		
         6. After that, we declare the request method, `private String makeHttpRequest(URL url) throws IOException {}` Try to ***discuss*** everyline of code with your friend, and make sure you understand, Google it if needed.
            
-           ```java
-            String jsonResponse = "";
-            HttpURLConnection urlConnection = null;
-            InputStream inputStream = null;
+		```java
+		String jsonResponse = "";
+		HttpURLConnection urlConnection = null;
+		InputStream inputStream = null;
 
-            try {
-                urlConnection = (HttpURLConnection) url.openConnection();
-                urlConnection.setRequestMethod("GET");
-                urlConnection.setReadTimeout(10000 /* milliseconds */);
-                urlConnection.setConnectTimeout(15000 /* milliseconds */);
-                urlConnection.connect();
-                if (urlConnection.getResponseCode() == 200) {
-                    inputStream = urlConnection.getInputStream();
-                    jsonResponse = readFromStream(inputStream); // read the response data and make it as a single string
-                }
-                else {
-                    Log.e("MainActivity", "Error response code: " + urlConnection.getResponseCode());
-                }
-            } catch (IOException e) {
-                Log.e("MainActivity", "Problem retrieving the book JSON results.", e);
-            } finally {
-                if (urlConnection != null) {
-                    urlConnection.disconnect();
-                }
-                if (inputStream != null) {
-                    // function must handle java.io.IOException here
-                    inputStream.close();
-                }
-            }
+		try {
+		    urlConnection = (HttpURLConnection) url.openConnection();
+		    urlConnection.setRequestMethod("GET");
+		    urlConnection.setReadTimeout(10000 /* milliseconds */ );
+		    urlConnection.setConnectTimeout(15000 /* milliseconds */ );
 
-            return jsonResponse;
-           ```
+		    if (urlConnection.getResponseCode() == 200) {
+			inputStream = urlConnection.getInputStream();
+			jsonResponse = readFromStream(inputStream); // read the response data and make it as a single string
+		    } else {
+			Log.e("MainActivity", "Error response code: " + urlConnection.getResponseCode());
+		    }
+		} catch (IOException e) {
+		    Log.e("MainActivity", "Problem retrieving the book JSON results.", e);
+		} finally {
+		    if (urlConnection != null) {
+			urlConnection.disconnect();
+		    }
+		    if (inputStream != null) {
+			// function must handle java.io.IOException here
+			inputStream.close();
+		    }
+		}
+
+		return jsonResponse;
+		```
            
         7. As listed in `makeHttpRequest()`, we have `readFromStream()`, so we declare anything inside it here, we build a string from everyline of response
         	
 		```java
-            StringBuilder output = new StringBuilder();
+		StringBuilder output = new StringBuilder();
 
-            if (inputStream != null) {
-                InputStreamReader inputStreamReader = new InputStreamReader(inputStream, Charset.forName("UTF-8"));
-                BufferedReader reader = new BufferedReader(inputStreamReader);
-                String line = reader.readLine();
-                while (line != null) {
-                    output.append(line);
-                    line = reader.readLine();
-                }
-            }
+		if (inputStream != null) {
+		    InputStreamReader inputStreamReader = new InputStreamReader(inputStream, Charset.forName("UTF-8"));
+		    BufferedReader reader = new BufferedReader(inputStreamReader);
+		    String line = reader.readLine();
+		    while (line != null) {
+			output.append(line);
+			line = reader.readLine();
+		    }
+		}
 
-            return output.toString();
+		return output.toString();
             	```
 		
         8. As listed in `doInBackground`, we have `extractBookInfoFromJson(String bookJSON)`, so we declare anything inside it here,

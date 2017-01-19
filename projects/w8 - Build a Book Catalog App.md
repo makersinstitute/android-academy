@@ -57,49 +57,49 @@ Here are some prefered order to build the app. If you are feeling stuck or confu
 			protected ArrayList<Book> doInBackground(URL... urls) {}
 			```
 		
-		So we add another thing personalized, first we check the `EditText` if it's empty or not. If it is empty, we show the user that the `EditText` as the search keyword, can not be empty.
-     		
-			```java
-			private String searchKeyword = keywordText.getText().toString();
-			if(searchKeyword.length() == 0) {
+			So we add another thing personalized, first we check the `EditText` if it's empty or not. If it is empty, we show the user that the `EditText` as the search keyword, can not be empty.
 
-				runOnUiThread(new Runnable() {
-					public void run() {
-						Toast.makeText(MainActivity.this, "Keywords can not be empty", Toast.LENGTH_SHORT).show();
-					}
-				});
+				```java
+				private String searchKeyword = keywordText.getText().toString();
+				if(searchKeyword.length() == 0) {
 
-				return null;
-			}
-			```
-            	
-		Then, if its not empty, we will process the data text inside that. Since we are going to add this keyword into a URL, we will replace the space (" ") with a plus ("+"). (Take a look at [here](http://stackoverflow.com/questions/1634271/url-encoding-the-space-character-or-20))
-            
-            		`searchKeyword = searchKeyword.replace(" ", "+");`
+					runOnUiThread(new Runnable() {
+						public void run() {
+							Toast.makeText(MainActivity.this, "Keywords can not be empty", Toast.LENGTH_SHORT).show();
+						}
+					});
 
-		After replacing the space, we create a full-form of the URL, using string concatenation'
-            
-            		`URL url = createUrl(BOOK_REQUEST_URL + searchKeyword); \\ method declared later`
-		
-		Then, we try to request data from the API server,
-            
-			```java
-			   String jsonResponse = "";
-			   try {
-			       jsonResponse = makeHttpRequest(url); // the function will be declared later. `makeHttpRequest()` return String formated JSON.
-			   } catch (IOException e) {
-			       Log.e("MainActivity", "IOException", e); // if error happened, we log the error
-			   }
-			```
-		
-		Finally, we process the response to convert it into an `ArrayList<Book>` and return the converted data
-           
-			```java
-			ArrayList<Book> books = extractBookInfoFromJson(jsonResponse); // method declared later
-	
-			return books;
-			```
-	    
+					return null;
+				}
+				```
+
+			Then, if its not empty, we will process the data text inside that. Since we are going to add this keyword into a URL, we will replace the space (" ") with a plus ("+"). (Take a look at [here](http://stackoverflow.com/questions/1634271/url-encoding-the-space-character-or-20))
+
+				`searchKeyword = searchKeyword.replace(" ", "+");`
+
+			After replacing the space, we create a full-form of the URL, using string concatenation'
+
+				`URL url = createUrl(BOOK_REQUEST_URL + searchKeyword); \\ method declared later`
+
+			Then, we try to request data from the API server,
+
+				```java
+				   String jsonResponse = "";
+				   try {
+				       jsonResponse = makeHttpRequest(url); // the function will be declared later. `makeHttpRequest()` return String formated JSON.
+				   } catch (IOException e) {
+				       Log.e("MainActivity", "IOException", e); // if error happened, we log the error
+				   }
+				```
+
+			Finally, we process the response to convert it into an `ArrayList<Book>` and return the converted data
+
+				```java
+				ArrayList<Book> books = extractBookInfoFromJson(jsonResponse); // method declared later
+
+				return books;
+				```
+
 		2. After we have the return value from `doInBackground` which is a `ArrayList<Book>`, we process it inside the `onPostExecute`. We override it then update the `ListView` to show the response data. 
 		
 			```java
@@ -107,19 +107,19 @@ Here are some prefered order to build the app. If you are feeling stuck or confu
 			protected void onPostExecute(ArrayList<Book> bookList) {}
 			```
 		
-		Before that, *dismiss the loading view*. Make sure to check the `bookList`, if its empty, then update `ListView` with empty data, if not, show the `bookList`
-			
-			```java
-			    if (bookList == null) {
-				bookAdapter = new BookAdapter(MainActivity.this, new ArrayList<Book>());
-				listView.setAdapter(bookAdapter);
+			Before that, *dismiss the loading view*. Make sure to check the `bookList`, if its empty, then update `ListView` with empty data, if not, show the `bookList`
 
-				return;
-			    }
+				```java
+				    if (bookList == null) {
+					bookAdapter = new BookAdapter(MainActivity.this, new ArrayList<Book>());
+					listView.setAdapter(bookAdapter);
 
-			    bookAdapter = new BookAdapter(MainActivity.this, bookList);
-			    listView.setAdapter(bookAdapter);
-			```
+					return;
+				    }
+
+				    bookAdapter = new BookAdapter(MainActivity.this, bookList);
+				    listView.setAdapter(bookAdapter);
+				```
             
        5. Next, we declare the `private URL createUrl(String stringUrl) {}` method, for creating URL from String
        		
@@ -190,12 +190,13 @@ Here are some prefered order to build the app. If you are feeling stuck or confu
         8. As listed in `doInBackground`, we have `extractBookInfoFromJson(String bookJSON)`, so we declare anything inside it here,
         	1. First we check the input parameter, is it empty or not
 		
-			```java
-			if(TextUtils.isEmpty(bookJSON)) {
-			   return null;
-				}
-			```
-            	2.  Then since the `extractBookInfoFromJson()` will return a `ArrayList<Book>`, we declare a new book variable `ArrayList<Book> books = new ArrayList<Book>();`
+						```java
+						if(TextUtils.isEmpty(bookJSON)) {
+							return null;
+						}
+						```
+			
+		2.  Then since the `extractBookInfoFromJson()` will return a `ArrayList<Book>`, we declare a new book variable `ArrayList<Book> books = new ArrayList<Book>();`
            	3.  Next, we try to parse the String input of this method, the `bookJSON` inside a `try/catch`. Now we `try` to parse `bookJSON`
 
 			**First**, cast it into `JSONObject` and check  the `"totalItems"` key inside that `JSON`. If the item is zero, then there is no book matched our keyword.

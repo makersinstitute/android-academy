@@ -478,6 +478,18 @@
   - [Book Catalog App](https://github.com/makersinstitute/android-academy/blob/master/projects/w8%20-%20Build%20a%20Book%20Catalog%20App.md)
 - Additional Material:
   
+## <a name="week9"></a>Week 9: Fun Projects
 
+####<a name="day91"></a>Day 1 - String
+- Presentation:
+  - [Playing with String](https://docs.google.com/presentation/d/1P6kQlJepfnjcYMGFdWDrlgrF3eZN78IZOvoCPLORFm4/edit?usp=sharing)
+- APK
+  - []()
+
+####<a name="day92"></a>Day 2 - Numbers
+- Presentation:
+  - [Playing with Numbers](https://docs.google.com/presentation/d/1bUiRjEvzSWaUcwsLt9xTkDLL9skiXRLjMSqLfbwAwjE/edit?usp=sharing)
+- APK
+  - [PlayingWithNumbers.apk]()
 
 

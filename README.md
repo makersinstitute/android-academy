@@ -484,12 +484,12 @@
 - Presentation:
   - [Playing with String](https://docs.google.com/presentation/d/1P6kQlJepfnjcYMGFdWDrlgrF3eZN78IZOvoCPLORFm4/edit?usp=sharing)
 - APK
-  - []()
+  - [Playing with String.apk](https://github.com/makersinstitute/android-academy/blob/master/etc/Playing%20with%20String.apk)
 
 ####<a name="day92"></a>Day 2 - Numbers
 - Presentation:
   - [Playing with Numbers](https://docs.google.com/presentation/d/1bUiRjEvzSWaUcwsLt9xTkDLL9skiXRLjMSqLfbwAwjE/edit?usp=sharing)
 - APK
-  - [PlayingWithNumbers.apk]()
+  - [Playing with Numbers.apk](https://github.com/makersinstitute/android-academy/blob/master/etc/Play%20with%20Numbers.apk)
 
 

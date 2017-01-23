@@ -46,7 +46,7 @@ Here are some prefered order to build the app. If you are feeling stuck or confu
             BookAsyncTask task = new BookAsyncTask();
             task.execute();
             ```
-     4. Next, we declared another class, as we called in previous code Snippet. Here is the code to request the data from API server.
+    4. Next, we declared another class, as we called in previous code Snippet. Here is the code to request the data from API server.
      	`private class BookAsyncTask extends AsyncTask<URL, Void, ArrayList<Book>> {}`
      	1. First, we override the `doInBackground` method to fullfil what we need. 
      		```java
@@ -111,7 +111,7 @@ Here are some prefered order to build the app. If you are feeling stuck or confu
             listView.setAdapter(bookAdapter);
             ```
             
-       5. Next, we declare the `private URL createUrl(String stringUrl) {}` method, for creating URL from String
+      5. Next, we declare the `private URL createUrl(String stringUrl) {}` method, for creating URL from String
        		```java
         	URL url = null;
         	try {
@@ -123,7 +123,7 @@ Here are some prefered order to build the app. If you are feeling stuck or confu
             
         	    return url;
             ```
-        6. After that, we declare the request method, `private String makeHttpRequest(URL url) throws IOException {}` Try to ***discuss*** everyline of code with your friend, and make sure you understand, Google it if needed.
+	  6. After that, we declare the request method, `private String makeHttpRequest(URL url) throws IOException {}` Try to ***discuss*** everyline of code with your friend, and make sure you understand, Google it if needed.
            
            ```java
             String jsonResponse = "";
@@ -158,7 +158,7 @@ Here are some prefered order to build the app. If you are feeling stuck or confu
             return jsonResponse;
            ```
            
-        7. As listed in `makeHttpRequest()`, we have `readFromStream()`, so we declare anything inside it here, we build a string from everyline of response
+       7. As listed in `makeHttpRequest()`, we have `readFromStream()`, so we declare anything inside it here, we build a string from everyline of response
         	```java
             StringBuilder output = new StringBuilder();
 
@@ -174,7 +174,7 @@ Here are some prefered order to build the app. If you are feeling stuck or confu
 
             return output.toString();
             ```
-        8. As listed in `doInBackground`, we have `extractBookInfoFromJson(String bookJSON)`, so we declare anything inside it here,
+		8. As listed in `doInBackground`, we have `extractBookInfoFromJson(String bookJSON)`, so we declare anything inside it here,
         	1. First we check the input parameter, is it empty or not
 				```java
             	if(TextUtils.isEmpty(bookJSON)) {

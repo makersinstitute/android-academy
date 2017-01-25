@@ -103,7 +103,7 @@ Here are some prefered order to build the app. If you are feeling stuck or confu
 
 4. Build a `Tabbed Activity` using `ViewPager` and containing two fragments.
    - ProfileFragment with its XML Layout, and SummaryFragment or ReportFragment with its XML Layout.
-   - Create class `FragmentPagerAdapter` as a Fragment 'Holder' a.k.a `ViewPager`
+   - Create class `ReportPagerAdapter` as a Fragment 'Holder' a.k.a `ViewPager`
    
    ```java
    public class ReportPagerAdapter extends FragmentPagerAdapter {

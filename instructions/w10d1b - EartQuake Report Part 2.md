@@ -45,6 +45,7 @@
 
 1. Create android resource file with name prefs.xml in res/xml folder. 
     Folder res -> Right click -> New -> Android Resource File 
+    <img src="../images/w10d1%20-%201.PNG" width="250">
 
 2.  Add content to prefs.xml
     ```
@@ -67,6 +68,8 @@
     ```
 
 3. Create new class with name PrefsActivity with the following content
+    <img src="../images/w10d1%20-%202.PNG" width="250">
+    
     ```
     public class PrefsActivity extends PreferenceActivity
             implements Preference.OnPreferenceChangeListener {
@@ -137,6 +140,8 @@
    
 ### <a name="lab14"></a>4. Create menu for access preference 
 1. Create new menu file with name menu_main.xml in res/menu folder with the following content : 
+    <img src="../images/w10d1%20-%203.PNG" width="250">
+    
     ```
     <?xml version="1.0" encoding="utf-8"?>
     <menu

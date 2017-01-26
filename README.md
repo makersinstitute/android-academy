@@ -507,8 +507,8 @@
 - Presentation:
   - [Data Storage #1](https://docs.google.com/presentation/d/1LbnINb3xMjwVDEb3oGIbRm0L4vz_QyrjK3kOBX-CtCE/edit?usp=sharing)
 - Hands on Lab:
-  - [SharedPreference #1]()
-  - [EarthQuake with Filters]()
+  - [SharedPreference #1](https://github.com/makersinstitute/android-academy/blob/master/instructions/w10d1%20-%20Data%20Storage%20Part1.md)
+  - [EarthQuake with Filters](https://github.com/makersinstitute/android-academy/blob/master/instructions/w10d1b%20-%20EartQuake%20Report%20Part%202.md)
   - [SQLite Tutorial](https://www.codecademy.com/learn/learn-sql)
 - Additional Material:
 

@@ -11,6 +11,7 @@ Create new project in android studio
 - Use Empty Activity template
 - Activity name : MainActivity
 - Layout Name : activity_main
+
 ---
 
 ### <a name="lab12"></a>2. Add SharedPreferences Object

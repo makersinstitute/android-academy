@@ -1,12 +1,12 @@
 ![Makers Institute](https://makersinstitute.id/img/logo-makersinstitute.png)
 
-# Hands on Lab Week 10 - Day 1 (SharedPreferences )
+# Hands on Lab Week 10 - Day 1 (SharedPreferences)
 
 ### <a name="lab11"></a>1. Create New Project
 
 Create new project in android studio
 
-- Application name : Milk Ordering
+- Application name : SharedPreference Example
 - Minimum sdk level : API 15 Android 4.0.3 Ice Cream Sandwich
 - Use Empty Activity template
 - Activity name : MainActivity
@@ -32,7 +32,7 @@ Create new project in android studio
     int countOpen;
     ```
 
-3. Create SharedPreferences object in OnCreate 
+3. Create SharedPreferences object in OnCreate method
     ```
      //get Shared Preferences
      mSharedPreferences = getSharedPreferences(MYPREFERENCES,MODE_PRIVATE);
@@ -56,14 +56,18 @@ Create new project in android studio
     }
    ``` 
 
-6. Use Editor to save data how many applications open
+6. Use Editor to save data how many applications open in onStop() method
     ```
-    //get Editor Object to make preferences changes
-    SharedPreferences.Editor editor = mSharedPreferences.edit();
-    editor.putInt(COUNTOPEN,(countOpen + 1));
+   @Override
+    protected void onStop() {
+        super.onStop();
+        //get Editor Object to make preferences changes
+        SharedPreferences.Editor editor = mSharedPreferences.edit();
+        editor.putInt(COUNTOPEN,(countOpen + 1));
 
-    //Commit the edites
-    editor.commit();
+        //Commit the edites
+        editor.commit();
+    }
     ```
 
 

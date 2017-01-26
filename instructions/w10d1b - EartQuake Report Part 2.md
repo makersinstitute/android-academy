@@ -1,6 +1,6 @@
 ![Makers Institute](https://makersinstitute.id/img/logo-makersinstitute.png)
 
-# Hands on Lab Week 10 - Day 1b (EarthQuake Report Part#3)
+# Hands on Lab Week 10 - Day 1 (EarthQuake Report Part#3)
 
 ### <a name="lab11"></a>1.Import Project
 

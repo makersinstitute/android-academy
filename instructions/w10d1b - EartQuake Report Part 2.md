@@ -3,9 +3,14 @@
 # Hands on Lab Week 10 - Day 1 (EarthQuake Report Part#3)
 
 ### <a name="lab11"></a>1.Import Project
+- Go to this [GitHub project repository link](https://github.com/hidayatasep43/EarthQuakeReportBeta/tree/preferences)
+- Click on the “Download zip” button to download the app code.
+- Unzip the downloaded file on your computer so that you have a “EarthQuakeReport” folder.
+- Open Android Studio.
+- Choose File > Import Project and select the “EarthQuakeReport” folder. 
 
 
-### <a name="lab12"></a>2. Add Uses Permission and String item 
+### <a name="lab12"></a>2. Add Uses Permission and String Item 
 
 1. Add user permission to access network state in android manifest
     ```
@@ -36,7 +41,7 @@
 
     ```
 
-### <a name="lab13"></a>3. Add Preference To EartquakeReport Application
+### <a name="lab13"></a>3. Add Preference To EartQuakeReport Application
 
 1. Create android resource file with name prefs.xml in res/xml folder. 
     Folder res -> Right click -> New -> Android Resource File 
@@ -61,7 +66,7 @@
     </PreferenceScreen>
     ```
 
-3. Create new class with name PrefsActivity  with the following content
+3. Create new class with name PrefsActivity with the following content
     ```
     public class PrefsActivity extends PreferenceActivity
             implements Preference.OnPreferenceChangeListener {
@@ -130,8 +135,8 @@
     </manifest>
     ```
    
-### <a name="lab13"></a>3. Create menu for access preference 
-1. Create new menu file with name menu_main.xml in res/menu folder  with the following content : 
+### <a name="lab14"></a>4. Create menu for access preference 
+1. Create new menu file with name menu_main.xml in res/menu folder with the following content : 
     ```
     <?xml version="1.0" encoding="utf-8"?>
     <menu
@@ -174,7 +179,9 @@
         return super.onOptionsItemSelected(item);
     }
     ```
-### <a name="lab13"></a>4. Update layout activity_main
+    
+### <a name="lab15"></a>5. Update layout activity_main
+
 1. Add textview for show information if no eartquake data to activity_main.xml 
     ```
     <!-- Empty view is only visible when the list has no items -->
@@ -231,7 +238,7 @@
 
     ```
 
-### <a name="lab13"></a>5. Update MainActivity
+### <a name="lab16"></a>6. Update MainActivity
 1. Add global variabel to store TextView, Button, and ProggressBar
     ```
     //view for no data
@@ -248,17 +255,15 @@
 2. Assign view to variabel in onCreate() method
     ```
     emptyEartquake = (TextView) findViewById(R.id.empty_view);
-
-        refreshButton = (Button) findViewById(R.id.refreshButton);
-        refreshButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                refreshData();
-            }
-        });
-        noInternetConnectionLabel = (TextView) findViewById(R.id.noInternetConnectionLabel);
-        loadingProgress = (ProgressBar) findViewById(R.id.loadingIndicator);
+    
+    refreshButton = (Button) findViewById(R.id.refreshButton);
+    noInternetConnectionLabel = (TextView) findViewById(R.id.noInternetConnectionLabel);
+    
+    loadingProgress = (ProgressBar) findViewById(R.id.loadingIndicator);
     ```
+    
+3. Remove statement new DownloadTaskEartQuake().execute() in onCreate
+
 
 3. Add showLoadingIndicator() method for show ProgressBar in MainActivity
     ```
@@ -276,6 +281,7 @@
         }
     }
     ```
+    
 3. Add showList() method for show eartquake list and hide progress bar in MainActivity
     ```
     //method to show eartquake list and hide progress bar
@@ -304,6 +310,7 @@
         refreshButton.setEnabled(true);
     }
     ```
+    
 6. Add getLinkEarthQuake() method to get link to get data from usgs 
     ```
     //get link to get data from usgs
@@ -320,7 +327,7 @@
     }
     ```
 
-7. update DownloadTaskEartQuake so as to have a string parameter for url to get data from usgs and add onPreexecute method that contains a function to delete data
+7. Update DownloadTaskEartQuake so as to have a string parameter for url to get data from usgs and add onPreexecute method that contains a function to delete data
     ```
      private class DownloadTaskEartQuake extends AsyncTask<String,Void,ArrayList<EarthQuake>>{
 
@@ -381,11 +388,15 @@
 
 9. Call refrehData in onResume() 
     ```
-    //refresh data
-    refreshData();
+    @Override
+    protected void onResume() {
+        super.onResume();
+        //refresh data
+        refreshData();
+    }
     ```
  
-9. add setOnClickListener to refreshButton
+9. Add setOnClickListener to refreshButton
     ```
     refreshButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -396,6 +407,7 @@
     ```
 
 10. Call refrehData() method in onOptionItemSelected 
+    ```
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
@@ -408,6 +420,7 @@
         }
         return super.onOptionsItemSelected(item);
     }
+    ```
 
 
 

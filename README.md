@@ -493,3 +493,85 @@
   - [Playing with Numbers.apk](https://github.com/makersinstitute/android-academy/blob/master/etc/Play%20with%20Numbers.apk)
 
 
+## <a name="week10"></a>Week 10: Data Storage
+
+####<a name="day101"></a>Day 1 - Data Storage #1
+- Learning Objectives :
+  - Students understand about data persistence
+  - Students understand about Shared Preference
+  - Students know a litle about SQLite Database
+- Pre-reading : 
+  - [Data Persistence](https://teamtreehouse.com/library/android-data-persistence/introduction-to-data-persistence/what-is-data-persistence)
+  - [Shared Preference](https://www.tutorialspoint.com/android/android_shared_preferences.htm)
+  - [SQLite Database](http://www.vogella.com/tutorials/AndroidSQLite/article.html)
+- Presentation:
+  - [Data Storage #1](https://docs.google.com/presentation/d/1LbnINb3xMjwVDEb3oGIbRm0L4vz_QyrjK3kOBX-CtCE/edit?usp=sharing)
+- Hands on Lab:
+  - [SharedPreference #1]()
+  - [EarthQuake with Filters]()
+  - [SQLite Tutorial](https://www.codecademy.com/learn/learn-sql)
+- Additional Material:
+
+####<a name="day102"></a>Day 2 - Data Storage #2
+- Learning Objectives : 
+- Pre-reading : 
+- Presentation:
+- Hands on Lab:
+- Additional Material:
+
+####<a name="day103"></a>Day 3 - Projects!
+- Learning Objectives : 
+- Pre-reading : 
+- Presentation:
+- Hands on Lab:
+- Additional Material:
+
+
+
+## <a name="week11"></a>Week 11: 
+
+####<a name="day111"></a>Day 1 - 
+- Learning Objectives : 
+- Pre-reading : 
+- Presentation:
+- Hands on Lab:
+- Additional Material:
+
+####<a name="day112"></a>Day 2 - 
+- Learning Objectives : 
+- Pre-reading : 
+- Presentation:
+- Hands on Lab:
+- Additional Material:
+
+####<a name="day113"></a>Day 3 - Projects!
+- Learning Objectives : 
+- Pre-reading : 
+- Presentation:
+- Hands on Lab:
+- Additional Material:
+
+
+
+## <a name="week12"></a>Week 12: 
+
+####<a name="day121"></a>Day 1 - 
+- Learning Objectives : 
+- Pre-reading : 
+- Presentation:
+- Hands on Lab:
+- Additional Material:
+
+####<a name="day122"></a>Day 2 - 
+- Learning Objectives : 
+- Pre-reading : 
+- Presentation:
+- Hands on Lab:
+- Additional Material:
+
+####<a name="day123"></a>Day 3 - Projects!
+- Learning Objectives : 
+- Pre-reading : 
+- Presentation:
+- Hands on Lab:
+- Additional Material:

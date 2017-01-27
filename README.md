@@ -514,9 +514,15 @@
 
 ####<a name="day102"></a>Day 2 - Data Storage #2
 - Learning Objectives : 
+  - Students understand how to create database in Android
+  - Students able to insert data to database
+  - Students able to read data from database
 - Pre-reading : 
+  - [SQLiteDatabase](http://www.vogella.com/tutorials/AndroidSQLite/article.html)
 - Presentation:
+  - [Data Storage #2](https://docs.google.com/a/makersinstitute.id/presentation/d/1uFy9ZMFQjqlB-CcH4ck7Q-TQIrc-93u2cEMV4E8vvs8/edit?usp=sharing)
 - Hands on Lab:
+  - [Pets App](https://github.com/makersinstitute/android-academy/blob/master/projects/w10d2%20-%20Data%20Storage%20Part2.md)
 - Additional Material:
 
 ####<a name="day103"></a>Day 3 - Projects!

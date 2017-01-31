@@ -538,9 +538,18 @@
 
 ####<a name="day111"></a>Day 1 - 
 - Learning Objectives : 
+  - Students Understand About Content Provider
+  - Students Understand About URI
+  - Students Understand About Content Resolver
 - Pre-reading : 
+  - [Content Provider Basics](https://developer.android.com/guide/topics/providers/content-provider-basics.html)
+  - [Creating a Content Provider](https://developer.android.com/guide/topics/providers/content-provider-creating.html)
+  - [Android SQLite database and content provider](http://www.vogella.com/tutorials/AndroidSQLite/article.html)
+  - [Android - Content Providers](https://www.tutorialspoint.com/android/android_content_providers.htm)
 - Presentation:
+  - [Data Storage #3](https://drive.google.com/open?id=13nmXVTQb2J2oEGzbhQDjH5Kb6WgKFj0zQz-ydrDwWZc)
 - Hands on Lab:
+  - [Pets App Part #2](https://github.com/makersinstitute/android-academy/blob/master/instructions/w11d1%20-%20Data%20Storage%20Part3.md)
 - Additional Material:
 
 ####<a name="day112"></a>Day 2 - 

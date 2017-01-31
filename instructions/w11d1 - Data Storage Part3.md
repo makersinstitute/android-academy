@@ -1,6 +1,6 @@
 ![Makers Institute](https://makersinstitute.id/img/logo-makersinstitute.png)
 
-# Hands on Lab Week 11 - Day 1 (Data Storage Part #3)
+# Hands on Lab Week 11 - Day 1 (Pets App Part #2)
 
 ### <a name="lab11"></a>1. Add Content Provider To Pets App
 

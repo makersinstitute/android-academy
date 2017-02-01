@@ -536,7 +536,7 @@
 
 ## <a name="week11"></a>Week 11: 
 
-####<a name="day111"></a>Day 1 - 
+####<a name="day111"></a>Day 1 - Data Storage #3
 - Learning Objectives : 
   - Students Understand About Content Provider
   - Students Understand About URI
@@ -552,9 +552,17 @@
   - [Pets App Part #2](https://github.com/makersinstitute/android-academy/blob/master/instructions/w11d1%20-%20Data%20Storage%20Part3.md)
 - Additional Material:
 
-####<a name="day112"></a>Day 2 - 
+####<a name="day112"></a>Day 2 - Data Storage #4
 - Learning Objectives : 
+  - Students are able to use CursorAdapter to shows the database into ListView
+  - Students able to edit and delete data from SQLite Databases
+  - Students able to detect changes in EditText using OnTouchListener
 - Pre-reading : 
+  - [Populatin ListView using CursorAdapter](https://github.com/codepath/android_guides/wiki/Populating-a-ListView-with-a-CursorAdapter)
+  - [Android Loader with SimpleCursorAdapter](http://www.appstoremarketresearch.com/articles/android-tutorial-loader-simple-cursor-adapter/)
+  - [Update Data from SQLite Databases](https://developer.android.com/training/basics/data-storage/databases.html#UpdateDbRow)
+  - [Delete Data from SQLite Databases](https://developer.android.com/training/basics/data-storage/databases.html#DeleteDbRow)
+  - [View OnTouchListener](https://developer.android.com/reference/android/view/View.OnTouchListener.html)
 - Presentation:
 - Hands on Lab:
 - Additional Material:

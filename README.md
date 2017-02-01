@@ -558,7 +558,7 @@
   - Students able to edit and delete data from SQLite Databases
   - Students able to detect changes in EditText using OnTouchListener
 - Pre-reading : 
-  - [Populatin ListView using CursorAdapter](https://github.com/codepath/android_guides/wiki/Populating-a-ListView-with-a-CursorAdapter)
+  - [Populating ListView using CursorAdapter](https://github.com/codepath/android_guides/wiki/Populating-a-ListView-with-a-CursorAdapter)
   - [Android Loader with SimpleCursorAdapter](http://www.appstoremarketresearch.com/articles/android-tutorial-loader-simple-cursor-adapter/)
   - [Update Data from SQLite Databases](https://developer.android.com/training/basics/data-storage/databases.html#UpdateDbRow)
   - [Delete Data from SQLite Databases](https://developer.android.com/training/basics/data-storage/databases.html#DeleteDbRow)

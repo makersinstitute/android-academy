@@ -564,6 +564,7 @@
   - [Delete Data from SQLite Databases](https://developer.android.com/training/basics/data-storage/databases.html#DeleteDbRow)
   - [View OnTouchListener](https://developer.android.com/reference/android/view/View.OnTouchListener.html)
 - Presentation:
+  - [Data Storage #4](https://docs.google.com/presentation/d/1ENaJK_mhHqDfylTCUxhWoDCNADn5nUBvmLGk9F_FVPE/edit?usp=sharing)
 - Hands on Lab:
 - Additional Material:
 

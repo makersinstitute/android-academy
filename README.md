@@ -566,6 +566,7 @@
 - Presentation:
   - [Data Storage #4](https://docs.google.com/presentation/d/1ENaJK_mhHqDfylTCUxhWoDCNADn5nUBvmLGk9F_FVPE/edit?usp=sharing)
 - Hands on Lab:
+  - [Pets App Part #3](https://github.com/makersinstitute/android-academy/blob/master/instructions/w11d2%20-%20Data%20Storage%20Part4.md)
 - Additional Material:
 
 ####<a name="day113"></a>Day 3 - Projects!

@@ -188,6 +188,8 @@ Your application needs an API key to access the Google Maps servers. The type of
         }
     }
     ```
+    
+---
 
 ### <a name="lab15"></a>5. Receiving Location Update
 

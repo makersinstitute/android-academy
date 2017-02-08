@@ -1,18 +1,21 @@
 ![Makers Institute](https://makersinstitute.id/img/logo-makersinstitute.png)
 
-# Hands on Lab Week 11 - Day 1 (Google Maps)
+# Hands on Lab Week 12 - Day 1 (Google Maps)
 
-### <a name="lab11"></a>1. Install The Google Play Services SDK
+#### Step 1 : Install The Google Play Services SDK
 
 1. Open android sdk folder 
 
 2. Open SDK Manager.exe
 
+    ![SDK Manager](../images/w12d1%20-%201.PNG)
+    
 3. Check Google Play service 
-
+ 
+    ![Google Play Service](../images/w12d1%20-%202.PNG)
 ---
 
-### <a name="lab12"></a>2. Create a Google Maps Project
+#### Step 2 : Create a Google Maps Project
 
 1. Start Android Studio
 
@@ -28,7 +31,7 @@
 
 ---
 
-### <a name="lab13"></a>3. Get a Google Maps API key
+#### Step 3 : Get a Google Maps API key
 
 Your application needs an API key to access the Google Maps servers. The type of key you need is an API key with restriction for Android apps. The key is free. You can use it with any of your applications that call the Google Maps Android API, and it supports an unlimited number of users.
 
@@ -42,7 +45,7 @@ Your application needs an API key to access the Google Maps servers. The type of
 
 ---
 
-### <a name="lab13"></a>4. Getting the Last Known Location
+#### Step 4 : Getting the Last Known Location
 
 1.  Change gradle build on the code 
     ```
@@ -191,7 +194,7 @@ Your application needs an API key to access the Google Maps servers. The type of
     
 ---
 
-### <a name="lab15"></a>5. Receiving Location Update
+#### Step 5 : Receiving Location Update
 
 1. Implementing LocationListener to MapsActivity
     ```
@@ -215,7 +218,7 @@ Your application needs an API key to access the Google Maps servers. The type of
     private LocationRequest mLocationRequest;
     ```
 
-3. iniate LocationRequest object inside onCreate() method. 
+3. Inisiate LocationRequest object inside onCreate() method. 
     ```
     //inisiate LocationRequest object 
     mLocationRequest = LocationRequest.create()

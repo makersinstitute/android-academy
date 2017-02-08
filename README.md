@@ -580,9 +580,11 @@
 
 ## <a name="week12"></a>Week 12: 
 
-####<a name="day121"></a>Day 1 - 
+####<a name="day121"></a>Day 1 - Google Maps
 - Learning Objectives : 
+  - Students are able to use Google Maps API
 - Pre-reading : 
+  - [Update Data from SQLite Databases](https://developer.android.com/training/basics/data-storage/databases.html#UpdateDbRow)
 - Presentation:
 - Hands on Lab:
 - Additional Material:

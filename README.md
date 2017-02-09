@@ -584,9 +584,13 @@
 - Learning Objectives : 
   - Students are able to use Google Maps API
 - Pre-reading : 
-  - [Update Data from SQLite Databases](https://developer.android.com/training/basics/data-storage/databases.html#UpdateDbRow)
+  - [Google Maps API](https://developers.google.com/maps/documentation/android-api/start)
+  - [Beginner Guide Location Android](http://blog.teamtreehouse.com/beginners-guide-location-android)
+  - [Get The Last Known Location](https://developer.android.com/training/location/retrieve-current.html#last-known)
+  - [Receiving Location Update](https://developer.android.com/training/location/receive-location-updates.html#callback)
 - Presentation:
 - Hands on Lab:
+  - [Google Maps](https://github.com/makersinstitute/android-academy/blob/master/instructions/w12d1%20-%20GoogleMaps.md)
 - Additional Material:
 
 ####<a name="day122"></a>Day 2 - 

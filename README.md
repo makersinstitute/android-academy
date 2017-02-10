@@ -589,6 +589,7 @@
   - [Get The Last Known Location](https://developer.android.com/training/location/retrieve-current.html#last-known)
   - [Receiving Location Update](https://developer.android.com/training/location/receive-location-updates.html#callback)
 - Presentation:
+  - [Intro to Google Maps](https://docs.google.com/presentation/d/1r2KYH6ESA6Cci52GNayZAF_IqHfHUeCfhANz1MmLAnE/edit?usp=sharing)
 - Hands on Lab:
   - [Google Maps](https://github.com/makersinstitute/android-academy/blob/master/instructions/w12d1%20-%20GoogleMaps.md)
 - Additional Material:

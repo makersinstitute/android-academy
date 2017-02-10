@@ -84,6 +84,7 @@ Your application needs an API key to access the Google Maps servers. The type of
 
 2.  Add global variable Google API Client inside MapsActivity 
     ```
+    //GoogleApiClient is the latest client in Google Play Services that was designed to make this and other functions from Google Play Services easier to setup and use
     private GoogleApiClient mGoogleApiClient;
     ``` 
 
@@ -132,6 +133,7 @@ Your application needs an API key to access the Google Maps servers. The type of
     protected void onResume() {
         super.onResume();
         //connecting to google api client object
+        //We need to connect it before we can use it
         mGoogleApiClient.connect();
         
     }
@@ -170,6 +172,7 @@ Your application needs an API key to access the Google Maps servers. The type of
 
 7. Add statement for get Location of user and show on Maps in onConnected() method  
     ```
+    //When our client finally connects to the location services, the onConnected() method will be called
     @Override
     public void onConnected(@Nullable Bundle bundle) {
         Log.d(TAG, "Location service connected");
@@ -204,7 +207,7 @@ Your application needs an API key to access the Google Maps servers. The type of
             LocationListener{
 
             ...
-
+                //Method gets called every time a new location is detected by Google Play Services
                 @Override
                 public void onLocationChanged(Location location) {
                     handleNewLocation(location);

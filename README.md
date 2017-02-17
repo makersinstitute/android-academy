@@ -594,16 +594,14 @@
   - [Google Maps](https://github.com/makersinstitute/android-academy/blob/master/instructions/w12d1%20-%20GoogleMaps.md)
 - Additional Material:
 
-####<a name="day122"></a>Day 2 - 
+####<a name="day122"></a>Day 2 - Projects
 - Learning Objectives : 
-- Pre-reading : 
-- Presentation:
+  - Students learn about Firebase
 - Hands on Lab:
-- Additional Material:
+  - [Friendly Chat](https://codelabs.developers.google.com/codelabs/firebase-android/)
 
-####<a name="day123"></a>Day 3 - Projects!
-- Learning Objectives : 
-- Pre-reading : 
+####<a name="day123"></a>Day 3 - Publishing your Apps!
+- Learning Objectives :
+  - Students know how to publish their app into Google Play Store
 - Presentation:
-- Hands on Lab:
-- Additional Material:
+  - [Publish your Android Apps](https://drive.google.com/open?id=1JPYERbnQHPC5KlrKBsqfitketC7_NZCoKS4vumWO6PA)
